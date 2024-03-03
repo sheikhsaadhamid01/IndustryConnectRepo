@@ -31,7 +31,6 @@
     <Folder Include="Tests\" />
     <Folder Include="Reporting\" />
     <Folder Include="Utilities\" />
-    <Folder Include="Pages\" />
   </ItemGroup>
 
 </Project>

@@ -15,17 +15,20 @@ namespace TurnupPortal.UITests.DIContainerServices
     public class ContainerConfiguration
     {
         #region Fields
-        /// <summary>
-        ///  ConfigureService method initializes and store different types of objects in ISserviceCollection and returns the collection of objects as IServiceProvider
-        /// </summary>
-        /// <returns></returns>
-        /// 
-        static IServiceCollection serviceCollection;
-        static IServiceCollection pageHelperServices;
-        static IServiceCollection pageObjectsServices;
+        
+        static IServiceCollection? serviceCollection;
+        static IServiceCollection? pageHelperServices;
+        static IServiceCollection? pageObjectsServices;
 
         #endregion
 
+        #region Methods
+
+        /// <summary>
+        ///  ConfigureService method initializes and store different types of objects in ISserviceCollection.
+        /// </summary>
+        /// <returns>the collection of objects as IServiceProvider</returns>
+        
         public static IServiceProvider ConfigureService()
         {
             serviceCollection = new ServiceCollection();
@@ -45,6 +48,6 @@ namespace TurnupPortal.UITests.DIContainerServices
             return serviceCollection!.BuildServiceProvider();
 
         }
-
+        #endregion
     }
 }

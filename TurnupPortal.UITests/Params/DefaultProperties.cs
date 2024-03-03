@@ -11,7 +11,7 @@ namespace TurnupPortal.UITests.Params
     {
         #region Properties
         private string? _currentFolder = Directory.GetParent(AppDomain.CurrentDomain.BaseDirectory + "../../../")?.FullName;
-        public string AppSetttings { get => "appSettings.json"; }
+        public string AppSetttings { get => "AppSettings.json"; }
 
         public string ConfigurationFile { get => _currentFolder + @"\Resources\"; }
 

@@ -8,12 +8,15 @@ namespace TurnupPortal.UITests.Abstractions
 {
     public interface IGlobalProperties
     {
-        string? AppURL { get; }
-        string? BrowserURL { get; }
-        string? ValidUser { get; }
-        string? ValidPassword { get; }
-        string? InvalidUser { get; }
-        string? InvalidPassword { get; }
+        string AppURL { get; }
+        string Browser { get; }
+        string ValidUser { get; }
+        double ImplicitWaitTime { get; }
+        double ExplicitWaitTime { get; }
+        double PageLoadTime { get; }
+        string ValidPassword { get; }
+        string InvalidUser { get; }
+        string InvalidPassword { get; }
 
 
         void InitializeAppConfiguration();

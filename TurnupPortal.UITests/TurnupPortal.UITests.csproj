@@ -27,12 +27,10 @@
 
   <ItemGroup>
     <Folder Include="BrowserDrivers\" />
-    <Folder Include="DIContainerServices\" />
     <Folder Include="Logging\" />
     <Folder Include="Tests\" />
     <Folder Include="Reporting\" />
     <Folder Include="Utilities\" />
-    <Folder Include="TestBase\" />
     <Folder Include="Pages\" />
   </ItemGroup>
 

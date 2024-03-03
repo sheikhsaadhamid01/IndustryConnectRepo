@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "0GvK6rN3VSRDvuwfrWN0iZy1ZeN6HLh23hb6uIyiScA81zE+dewlf8D1LJ+NIGAMEWzLISB62Wb+vI5cqtU3zA==",
+  "dgSpecHash": "DH2inRnkmygKmNBOdRoVFETgMAtuyMS92RsDmc0rZpW14MOdmG8RTuWkqajpvtDYAPP2ycn67efQ2UlrppGc+w==",
   "success": true,
   "projectFilePath": "C:\\Users\\Administrator\\Documents\\IC\\IndustryConnectRepo\\TurnupPortal.UITests\\TurnupPortal.UITests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\dotnetseleniumextras.waithelpers\\3.11.0\\dotnetseleniumextras.waithelpers.3.11.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\log4net\\2.0.15\\log4net.2.0.15.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.codecoverage\\17.6.0\\microsoft.codecoverage.17.6.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",

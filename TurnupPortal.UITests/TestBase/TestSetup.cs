@@ -16,11 +16,14 @@ namespace TurnupPortal.UITests.TestBase
         protected IDefaultProperties? _defaultProperties;
         protected IGlobalProperties? _globalProperties;   
         protected IBrowserFactory? _browserFactory;
+        protected IWaitUtils? _waitUtils;
+        protected IAppUtilities? _appUtilities;
+        protected IDriverUtils? _driverUtils;
         protected IServiceProvider? _service;
         protected string _url = "";
-        protected IWebDriver driver;
+        protected IWebDriver? driver;
 
-        public IWebDriver Driver { get; private set; }
+        public IWebDriver? Driver { get; private set; }
 
 
         [OneTimeSetUp]
@@ -33,6 +36,9 @@ namespace TurnupPortal.UITests.TestBase
                 _globalProperties = _service?.GetRequiredService<IGlobalProperties>();
                 _defaultProperties = _service?.GetRequiredService<IDefaultProperties>();
                 _browserFactory = _service?.GetRequiredService<IBrowserFactory>();
+                _waitUtils = _service?.GetRequiredService<IWaitUtils>();
+                _driverUtils = _service?.GetRequiredService<IDriverUtils>();
+                _appUtilities = _service?.GetRequiredService<IAppUtilities>();
             }
             
 
@@ -41,14 +47,14 @@ namespace TurnupPortal.UITests.TestBase
 
         public void Setup()
         {
-            Driver = _browserFactory.GetWebDriver;
+            Driver = _browserFactory!.GetWebDriver;
             Driver.Manage().Cookies.DeleteAllCookies();
 
             Driver.Manage().Window.Maximize();
             Driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(_globalProperties!.ImplicitWaitTime);
             Driver.Manage().Timeouts().PageLoad = TimeSpan.FromSeconds(_globalProperties!.PageLoadTime);
             _url = _globalProperties.AppURL;
-            Driver.Navigate().GoToUrl(_globalProperties.AppURL);
+            _driverUtils?.NavigateToUrl(_url);
         }
 
 
@@ -56,12 +62,7 @@ namespace TurnupPortal.UITests.TestBase
         public void TearDown()
         {
 
-            if (Driver != null)
-            {
-                Driver.Quit();
-
-
-            }          
+            _driverUtils?.Quit();        
 
 
         }

@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using TurnupPortal.UITests.Abstractions;
 using TurnupPortal.UITests.Params;
 using TurnupPortal.UITests.TestBase;
+using TurnupPortal.UITests.Utilities;
 
 namespace TurnupPortal.UITests.DIContainerServices
 {
@@ -38,7 +39,9 @@ namespace TurnupPortal.UITests.DIContainerServices
             serviceCollection.AddSingleton<IGlobalProperties, GlobalProperties>();
             serviceCollection.AddSingleton<IDefaultProperties, DefaultProperties>();
             serviceCollection.AddSingleton<IBrowserFactory, BrowserFactory>();
-
+            serviceCollection.AddSingleton<IWaitUtils, WaitUtilities>();
+            serviceCollection.AddSingleton<IDriverUtils, DriverUtilities>();
+            serviceCollection.AddSingleton<IAppUtilities, AppUtilites>();
             #endregion
 
             #region Pages

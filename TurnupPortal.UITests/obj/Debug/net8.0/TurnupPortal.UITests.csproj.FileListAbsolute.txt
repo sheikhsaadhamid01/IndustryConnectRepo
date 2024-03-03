@@ -1,0 +1,6 @@
+C:\Users\Administrator\Documents\Assignments\IC-Assignments\IC.Web.Automation\TurnupPortal.UITests\obj\Debug\net8.0\TurnupPortal.UITests.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\Assignments\IC-Assignments\IC.Web.Automation\TurnupPortal.UITests\obj\Debug\net8.0\TurnupPortal.UITests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Documents\Assignments\IC-Assignments\IC.Web.Automation\TurnupPortal.UITests\obj\Debug\net8.0\TurnupPortal.UITests.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\Assignments\IC-Assignments\IC.Web.Automation\TurnupPortal.UITests\obj\Debug\net8.0\TurnupPortal.UITests.AssemblyInfo.cs
+C:\Users\Administrator\Documents\Assignments\IC-Assignments\IC.Web.Automation\TurnupPortal.UITests\obj\Debug\net8.0\TurnupPortal.UITests.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Assignments\IC-Assignments\IC.Web.Automation\TurnupPortal.UITests\obj\Debug\net8.0\TurnupPortal.UITests.sourcelink.json

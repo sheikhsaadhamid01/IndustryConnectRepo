@@ -10,21 +10,24 @@ using TurnupPortal.UITests.TestBase;
 
 namespace TurnupPortal.UITests.Pages.Login
 {
-    public class LoginPageObjects : TestSetup
+    public class LoginPageObjects 
     {
         private IDriverUtils? _driverUtility;
         private IGlobalProperties? _globalProperties;
         private IDefaultProperties? _defaultProperties;
         private IAppUtilities? _appUtilities;
         private ILoginPageHelper? _loginPageHelper;
+        private IHomePageHelper? _homePageHelper;
+        
 
-        public LoginPageObjects(IDriverUtils driverUtils, IGlobalProperties globalProperties, IDefaultProperties defaultProperties, IAppUtilities appUtilities, ILoginPageHelper loginPageHelper)
+        public LoginPageObjects(IDriverUtils driverUtils, IGlobalProperties globalProperties, IDefaultProperties defaultProperties, IAppUtilities appUtilities, ILoginPageHelper loginPageHelper, IHomePageHelper homePageHelper)
         {
                 this._defaultProperties = defaultProperties;
                 this._globalProperties = globalProperties;
                 this._driverUtility = driverUtils;
                 this._appUtilities = appUtilities;
                 this._loginPageHelper = loginPageHelper;
+                this._homePageHelper = homePageHelper;
         }
 
         public bool LoginWithValidUserAndPassword(string userName, string password)
@@ -32,6 +35,7 @@ namespace TurnupPortal.UITests.Pages.Login
             bool isUserNameDisplayedOnHomePage = false;
            _loginPageHelper?.EnterUserNamePasswordAndClickLogin(userName, password);
 
+            isUserNameDisplayedOnHomePage = _homePageHelper!.IsGreetingDisplayedAfterLogin();
 
             return isUserNameDisplayedOnHomePage;
         }

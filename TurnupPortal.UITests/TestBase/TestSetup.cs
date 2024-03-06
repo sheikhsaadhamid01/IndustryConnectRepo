@@ -21,6 +21,7 @@ namespace TurnupPortal.UITests.TestBase
         protected IAppUtilities? _appUtilities;
         protected IDriverUtils? _driverUtils;
         protected IServiceProvider? _service;
+        protected IHomePageHelper? _homePageHelper;
         protected ILoginPageHelper? _loginPageHelper;
         protected string _url = "";
         protected IWebDriver? driver;
@@ -43,6 +44,7 @@ namespace TurnupPortal.UITests.TestBase
                 _appUtilities = _service?.GetRequiredService<IAppUtilities>();
 
                 _loginPageHelper = _service?.GetRequiredService<ILoginPageHelper>();
+                _homePageHelper = _service?.GetRequiredService<IHomePageHelper>();
             }
             
 
@@ -52,13 +54,17 @@ namespace TurnupPortal.UITests.TestBase
         public void Setup()
         {
             Driver = _browserFactory!.GetWebDriver;
+           
             Driver.Manage().Cookies.DeleteAllCookies();
 
             Driver.Manage().Window.Maximize();
             Driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(_globalProperties!.ImplicitWaitTime);
             Driver.Manage().Timeouts().PageLoad = TimeSpan.FromSeconds(_globalProperties!.PageLoadTime);
             _url = _globalProperties.AppURL;
-            _driverUtils?.NavigateToUrl(_url);
+            Driver.Navigate().GoToUrl(_url);
+
+
+
         }
 
 

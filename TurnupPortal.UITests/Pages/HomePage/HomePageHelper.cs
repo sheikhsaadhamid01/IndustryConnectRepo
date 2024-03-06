@@ -4,17 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TurnupPortal.UITests.Abstractions;
+using TurnupPortal.UITests.Abstractions.Pages;
 
 namespace TurnupPortal.UITests.Pages.HomePage
 {
-    public class HomePagePageObjects
+    public class HomePageHelper : IHomePageHelper
     {
         private IDriverUtils? _driverUtility;
         private IGlobalProperties? _globalProperties;
         private IDefaultProperties? _defaultProperties;
         private IAppUtilities? _appUtilities;
 
-        public HomePagePageObjects(IDriverUtils driverUtils, IGlobalProperties globalProperties, IDefaultProperties defaultProperties, IAppUtilities appUtilities)
+        public HomePageHelper(IDriverUtils driverUtils, IGlobalProperties globalProperties, IDefaultProperties defaultProperties, IAppUtilities appUtilities)
         {
             this._driverUtility = driverUtils;
             this._globalProperties = globalProperties;
@@ -24,10 +25,7 @@ namespace TurnupPortal.UITests.Pages.HomePage
 
         public bool IsGreetingDisplayedAfterLogin()
         {
-            bool isDisplayed = false;
-
-
-            return isDisplayed;
+            return _appUtilities!.IsElementDisplayed(HomePageLocators.UserNameHeader);
         }
     }
 }

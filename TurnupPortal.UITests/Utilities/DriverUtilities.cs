@@ -18,8 +18,18 @@ namespace TurnupPortal.UITests.Utilities
         
         private Actions? _actions;
 
-        public IWebDriver? Driver { get => base.Driver;  }
+        public IWebDriver? Driver { get; private set; }
 
+
+        public IWebDriver InitializeDriver(IWebDriver driver)
+        {
+            if (this.Driver == null)
+            {
+                this.Driver = driver;
+                _actions = new Actions(this.Driver);
+            }
+            return Driver;
+        }
 
         public void NavigateToUrl(string url)
         {

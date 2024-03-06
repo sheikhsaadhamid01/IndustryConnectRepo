@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace TurnupPortal.UITests.Abstractions.Pages
 {
-    public  interface ILoginPageHelper
+    public interface IHomePageHelper
     {
 
-        void EnterUserNamePasswordAndClickLogin(string userName, string password);
+        bool IsGreetingDisplayedAfterLogin();
     }
 }

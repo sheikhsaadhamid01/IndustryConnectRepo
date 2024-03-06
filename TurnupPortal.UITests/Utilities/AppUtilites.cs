@@ -23,7 +23,7 @@ namespace TurnupPortal.UITests.Utilities
             this._globalProperties = globalProperties;
             this._driverUtility = driverUtils;
             this._waitUtils = waitUtils;
-            _waitUtils = waitUtils;
+            
             _waitTime = _globalProperties.ExplicitWaitTime;
 
         }
@@ -64,6 +64,23 @@ namespace TurnupPortal.UITests.Utilities
             IWebElement message = _waitUtils.GetElement(_driverUtility.Driver!, locator, "visible", _waitTime);
             validationText = _driverUtility.GetElementText(message);
             return validationText;
+        }
+
+
+        public bool IsElementDisplayed(By locator)
+        {
+            bool isDisplayed = false;
+
+            try
+            {
+                IWebElement element = _waitUtils.GetElement(_driverUtility.Driver!, locator, "visible", _waitTime);
+                isDisplayed = _driverUtility.IsDisplayed(element);
+
+            }
+            catch (Exception ex) { throw new Exception(ex.Message); }
+
+
+            return isDisplayed;
         }
 
 

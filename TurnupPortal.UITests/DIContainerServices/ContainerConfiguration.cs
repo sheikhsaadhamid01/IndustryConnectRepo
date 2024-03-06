@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using TurnupPortal.UITests.Abstractions;
 using TurnupPortal.UITests.Abstractions.Pages;
+using TurnupPortal.UITests.Pages.HomePage;
 using TurnupPortal.UITests.Pages.Login;
 using TurnupPortal.UITests.Params;
 using TurnupPortal.UITests.TestBase;
@@ -48,6 +49,7 @@ namespace TurnupPortal.UITests.DIContainerServices
 
             #region Pages
             serviceCollection.AddSingleton<ILoginPageHelper, LoginPageHelpers>();
+            serviceCollection.AddSingleton<IHomePageHelper, HomePageHelper>();
             #endregion
 
             return serviceCollection!.BuildServiceProvider();

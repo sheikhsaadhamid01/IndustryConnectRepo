@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TurnupPortal.UITests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+379f39ecceefc0c1c32a00e2c2b6bff3b01775b2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("TurnupPortal.UITests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TurnupPortal.UITests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

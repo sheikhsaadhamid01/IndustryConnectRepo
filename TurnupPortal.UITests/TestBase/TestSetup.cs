@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TurnupPortal.UITests.Abstractions;
+using TurnupPortal.UITests.Abstractions.Pages;
 using TurnupPortal.UITests.DIContainerServices;
 
 namespace TurnupPortal.UITests.TestBase
@@ -20,6 +21,7 @@ namespace TurnupPortal.UITests.TestBase
         protected IAppUtilities? _appUtilities;
         protected IDriverUtils? _driverUtils;
         protected IServiceProvider? _service;
+        protected ILoginPageHelper? _loginPageHelper;
         protected string _url = "";
         protected IWebDriver? driver;
 
@@ -39,6 +41,8 @@ namespace TurnupPortal.UITests.TestBase
                 _waitUtils = _service?.GetRequiredService<IWaitUtils>();
                 _driverUtils = _service?.GetRequiredService<IDriverUtils>();
                 _appUtilities = _service?.GetRequiredService<IAppUtilities>();
+
+                _loginPageHelper = _service?.GetRequiredService<ILoginPageHelper>();
             }
             
 

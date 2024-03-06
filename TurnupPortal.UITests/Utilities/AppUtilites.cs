@@ -33,7 +33,7 @@ namespace TurnupPortal.UITests.Utilities
         {
             try
             {
-                IWebElement inputField = _waitUtils!.GetElement(_driverUtility.Driver, locator, "visible", _waitTime);
+                IWebElement inputField = _waitUtils!.GetElement(_driverUtility.Driver!, locator, "visible", _waitTime);
                 _driverUtility.SendText(inputField, text);
             }
             catch (Exception ex)
@@ -48,7 +48,7 @@ namespace TurnupPortal.UITests.Utilities
         {
             try
             {
-                IWebElement button = _waitUtils!.GetElement(_driverUtility.Driver, locator, "clickable", _waitTime);
+                IWebElement button = _waitUtils!.GetElement(_driverUtility.Driver!, locator, "clickable", _waitTime);
                 _driverUtility.ClickElement(button);
             }
             
@@ -61,7 +61,7 @@ namespace TurnupPortal.UITests.Utilities
         public string GetValidationText(By locator)
         {
             string validationText = "";
-            IWebElement message = _waitUtils.GetElement(_driverUtility.Driver, locator, "visible", _waitTime);
+            IWebElement message = _waitUtils.GetElement(_driverUtility.Driver!, locator, "visible", _waitTime);
             validationText = _driverUtility.GetElementText(message);
             return validationText;
         }

@@ -1,17 +1,16 @@
+using System.ComponentModel;
 using TurnupPortal.UITests.Pages.Login;
 using TurnupPortal.UITests.TestBase;
 
 namespace TurnupPortal.UITests.Tests
 {
-    public class Tests : TestSetup
+    [TestFixture]
+    public class LoginPageTests : TestSetup
     {
 
         private LoginPageObjects loginPage;
 
-        public Tests()
-        {
-
-        }
+        
         [SetUp]
         public void Setup()
         {
@@ -22,7 +21,7 @@ namespace TurnupPortal.UITests.Tests
 
         }
 
-        [Test, Order(1)]
+        [Test, Order(1), ]
         public void VerifyLoginWithValidCredentials()
         {
             Assert.IsTrue(loginPage.LoginWithValidUserAndPassword(_globalProperties!.ValidUser, _globalProperties!.ValidPassword), "Login Failed.");

@@ -8,10 +8,11 @@ using System.Threading.Tasks;
 using TurnupPortal.UITests.Abstractions;
 using TurnupPortal.UITests.TestBase;
 using System.Reflection;
+using System.Security.Policy;
 
 namespace TurnupPortal.UITests.Utilities
 {
-    public class DriverUtilities : TestSetup , IDriverUtils
+    public class DriverUtilities :  IDriverUtils
     {
        
             
@@ -47,9 +48,9 @@ namespace TurnupPortal.UITests.Utilities
         {
             if (element != null && !string.IsNullOrEmpty(text))
             {
-                element.Click();
-                element.Clear();
-                element.SendKeys(text);
+
+                _actions!.MoveToElement(element).Click().SendKeys(text).Build().Perform();
+                
             }
             else
             {
@@ -87,13 +88,53 @@ namespace TurnupPortal.UITests.Utilities
         {
             return element.Displayed;
         }
+        public void Close()
+        {
+            if (Driver != null)
+            {
+                Driver.Close();
+                Driver = null;
+            }
+        }
 
+        public string GetScreenShot(IWebDriver driver)
+        {
+
+            ITakesScreenshot takeScreenShot = (ITakesScreenshot)driver;
+            Screenshot screenshot = takeScreenShot.GetScreenshot();
+            var image = screenshot.AsBase64EncodedString;
+            return image;
+
+
+        }
+
+        public void MoveToElementAndClick(IWebElement element)
+        {
+            _actions!
+                .MoveToElement(element)
+                .Click()
+                .Build()
+                .Perform();
+        }
+
+        public void SwtichToAlertAndAccept()
+        {
+            IAlert alert = (IAlert)Driver!;
+            alert.Accept();
+        }
+
+        public void SwitchToAlertandDecline()
+        {
+            IAlert alert = (IAlert)Driver!;
+            alert.Dismiss();
+        }
 
         public void Quit()
         {
             if (Driver != null)
             {
                 Driver.Quit();
+                Driver = null;
             }
         }
     }

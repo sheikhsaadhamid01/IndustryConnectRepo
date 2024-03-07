@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using TurnupPortal.UITests.Abstractions;
@@ -38,13 +39,13 @@ namespace TurnupPortal.UITests.Utilities
             }
             catch (Exception ex)
             {
-                throw new Exception(ex.Message);
+                throw new Exception(ex.InnerException!.ToString());
             }
             
         
         }
 
-        public void ClickButton(By locator)
+        public void ClickElement(By locator)
         {
             try
             {
@@ -58,12 +59,45 @@ namespace TurnupPortal.UITests.Utilities
             }
         }
 
+        public void ClickElementByActions(By locator)
+        {
+            try
+            {
+                IWebElement button = _waitUtils!.GetElement(_driverUtility.Driver!, locator, "clickable", _waitTime);
+                _driverUtility.MoveToElementAndClick(button);
+            }
+
+            catch (Exception ex)
+            {
+                throw new Exception(ex.InnerException!.ToString());
+            }
+        }
         public string GetValidationText(By locator)
         {
             string validationText = "";
             IWebElement message = _waitUtils.GetElement(_driverUtility.Driver!, locator, "visible", _waitTime);
             validationText = _driverUtility.GetElementText(message);
             return validationText;
+        }
+
+        public void HandleConfirmationPopUP(string value)
+        {
+            if (string.IsNullOrEmpty(value))
+            {
+                throw new ArgumentException($"Null or Empty string provided as argument for method {MethodBase.GetCurrentMethod()!.Name}");
+            }
+            switch (value.ToLower())
+            {
+                case "accept":
+                    _driverUtility.SwtichToAlertAndAccept();
+                    break;
+                case "decline":
+                    _driverUtility.SwitchToAlertandDecline();
+                    break;
+                default:
+                    _driverUtility.SwtichToAlertAndAccept();
+                    break;
+            }
         }
 
 
@@ -77,7 +111,7 @@ namespace TurnupPortal.UITests.Utilities
                 isDisplayed = _driverUtility.IsDisplayed(element);
 
             }
-            catch (Exception ex) { throw new Exception(ex.Message); }
+            catch (Exception ex) { throw new Exception(ex.InnerException!.ToString()); ; }
 
 
             return isDisplayed;

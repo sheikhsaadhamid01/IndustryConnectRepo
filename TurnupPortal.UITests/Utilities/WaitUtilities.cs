@@ -51,7 +51,7 @@ namespace TurnupPortal.UITests.Utilities
                 }
                 catch (Exception e)
                 {
-                    throw new Exception($"{MethodBase.GetCurrentMethod()?.Name}  - {e.Message}");
+                    throw new Exception($"{MethodBase.GetCurrentMethod()?.Name}  - {e.InnerException}");
                 }
                
 
@@ -85,7 +85,7 @@ namespace TurnupPortal.UITests.Utilities
                 }
                 catch (Exception e)
                 {
-                    throw new Exception($"{MethodBase.GetCurrentMethod()?.Name}  - {e.Message}");
+                    throw new Exception($"{MethodBase.GetCurrentMethod()?.Name}  - {e.InnerException}");
                 }
 
             }

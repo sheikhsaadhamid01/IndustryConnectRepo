@@ -10,5 +10,6 @@ namespace TurnupPortal.UITests.Abstractions.Pages
     {
 
         bool IsGreetingDisplayedAfterLogin();
+        void LogoutUser();
     }
 }

@@ -12,19 +12,15 @@ namespace TurnupPortal.UITests.Pages.Login
 {
     public class LoginPageObjects 
     {
-        private IDriverUtils? _driverUtility;
-        private IGlobalProperties? _globalProperties;
-        private IDefaultProperties? _defaultProperties;
+        
         private IAppUtilities? _appUtilities;
         private ILoginPageHelper? _loginPageHelper;
         private IHomePageHelper? _homePageHelper;
         
 
-        public LoginPageObjects(IDriverUtils driverUtils, IGlobalProperties globalProperties, IDefaultProperties defaultProperties, IAppUtilities appUtilities, ILoginPageHelper loginPageHelper, IHomePageHelper homePageHelper)
+        public LoginPageObjects( IAppUtilities appUtilities, ILoginPageHelper loginPageHelper, IHomePageHelper homePageHelper)
         {
-                this._defaultProperties = defaultProperties;
-                this._globalProperties = globalProperties;
-                this._driverUtility = driverUtils;
+                
                 this._appUtilities = appUtilities;
                 this._loginPageHelper = loginPageHelper;
                 this._homePageHelper = homePageHelper;

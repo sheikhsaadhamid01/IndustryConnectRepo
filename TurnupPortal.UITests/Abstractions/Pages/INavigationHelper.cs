@@ -4,11 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TurnupPortal.UITests.Pages.PageNavigations
+namespace TurnupPortal.UITests.Abstractions.Pages
 {
-    public class NavigationLocators
+    public interface INavigationHelper
     {
-
-
+        void NavigateToPage(string pageName);
     }
 }

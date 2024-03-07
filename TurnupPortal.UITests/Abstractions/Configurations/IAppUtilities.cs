@@ -12,10 +12,11 @@ namespace TurnupPortal.UITests.Abstractions
 
         void EnterDataInInputField(string text, By locator);
 
-        void ClickButton(By locator);
+        void  ClickElement(By locator);
 
         string GetValidationText(By locator);
 
         bool IsElementDisplayed(By locator);
+        void ClickElementByActions(By locator);
     }
 }

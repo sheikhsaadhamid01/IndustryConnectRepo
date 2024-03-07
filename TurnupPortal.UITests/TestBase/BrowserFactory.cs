@@ -31,7 +31,9 @@ namespace TurnupPortal.UITests.TestBase
                 switch (_globalProperties.Browser)
                 {
                     case "chrome":
-                        return new ChromeDriver();
+                        ChromeOptions options = new ChromeOptions();
+                        options.AddArgument("--incognito");
+                        return new ChromeDriver(options);
 
                     case "firefox":
                         return new FirefoxDriver();

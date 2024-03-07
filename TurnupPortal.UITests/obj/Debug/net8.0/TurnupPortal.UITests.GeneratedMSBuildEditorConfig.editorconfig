@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TurnupPortal.UITests
-build_property.ProjectDir = C:\Users\sheik\OneDrive\Documents\ICAssignments\IndustryConnectRepo\TurnupPortal.UITests\
+build_property.ProjectDir = D:\IC-Assignments\IndustryConnectRepo\TurnupPortal.UITests\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

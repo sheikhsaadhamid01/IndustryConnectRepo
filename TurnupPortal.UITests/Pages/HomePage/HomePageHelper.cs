@@ -27,5 +27,11 @@ namespace TurnupPortal.UITests.Pages.HomePage
         {
             return _appUtilities!.IsElementDisplayed(HomePageLocators.UserNameHeader);
         }
+
+        public void LogoutUser()
+        {
+            _appUtilities!.ClickElementByActions(HomePageLocators.UserNameHeader);
+            _appUtilities!.ClickElementByActions(HomePageLocators.Logoff);
+        }
     }
 }

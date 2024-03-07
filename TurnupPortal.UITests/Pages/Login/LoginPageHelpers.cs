@@ -23,7 +23,7 @@ namespace TurnupPortal.UITests.Pages.Login
         {
             _appUtilities.EnterDataInInputField(userName, LoginLocators.UserNameField);
             _appUtilities.EnterDataInInputField(password, LoginLocators.PasswordField);
-            _appUtilities.ClickButton(LoginLocators.LoginButton);
+            _appUtilities.ClickElement(LoginLocators.LoginButton);
         }
     }
 }

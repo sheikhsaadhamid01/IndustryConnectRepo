@@ -11,5 +11,8 @@ namespace TurnupPortal.UITests.Pages.HomePage
     {
 
         public static By UserNameHeader { get => By.XPath(".//a[contains(text(), 'Hello')]"); }
+
+        public static By Logoff { get => By.XPath(".//a[text()='Log off']"); }
+
     }
 }

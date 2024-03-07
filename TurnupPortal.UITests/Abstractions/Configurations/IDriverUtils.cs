@@ -11,14 +11,16 @@ namespace TurnupPortal.UITests.Abstractions
     {
         IWebDriver? Driver { get; }
 
-
+        void Close();
         IWebDriver InitializeDriver(IWebDriver driver);
         void NavigateToUrl(string url);
         void SendText(IWebElement element, string text);
         void ClickElement(IWebElement element);
+        string GetScreenShot(IWebDriver driver);
         void ClickThroughJavascript(IWebElement element);
         string GetElementText(IWebElement element);
         bool IsDisplayed(IWebElement element);
+        void MoveToElementAndClick(IWebElement element);
         void Quit();
 
     }

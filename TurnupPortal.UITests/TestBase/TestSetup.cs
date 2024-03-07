@@ -1,4 +1,6 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using AventStack.ExtentReports;
+using Microsoft.Extensions.DependencyInjection;
+using NUnit.Framework.Interfaces;
 using OpenQA.Selenium;
 using System;
 using System.Collections.Generic;
@@ -8,6 +10,8 @@ using System.Threading.Tasks;
 using TurnupPortal.UITests.Abstractions;
 using TurnupPortal.UITests.Abstractions.Pages;
 using TurnupPortal.UITests.DIContainerServices;
+using TurnupPortal.UITests.Reporting;
+using TurnupPortal.UITests.Utilities;
 
 namespace TurnupPortal.UITests.TestBase
 {
@@ -23,6 +27,9 @@ namespace TurnupPortal.UITests.TestBase
         protected IServiceProvider? _service;
         protected IHomePageHelper? _homePageHelper;
         protected ILoginPageHelper? _loginPageHelper;
+        protected INavigationHelper? _navigationHelper;
+        protected static ExtentTest? _parentTest;
+        protected static ExtentTest? _extentTest;
         protected string _url = "";
         protected IWebDriver? driver;
 
@@ -45,8 +52,9 @@ namespace TurnupPortal.UITests.TestBase
 
                 _loginPageHelper = _service?.GetRequiredService<ILoginPageHelper>();
                 _homePageHelper = _service?.GetRequiredService<IHomePageHelper>();
+                _navigationHelper = _service?.GetRequiredService<INavigationHelper>();
             }
-            
+            ExtentUtility.CreateParentTest(GetType().Name);
 
 
         }
@@ -60,8 +68,54 @@ namespace TurnupPortal.UITests.TestBase
             Driver.Manage().Window.Maximize();
             Driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(_globalProperties!.ImplicitWaitTime);
             Driver.Manage().Timeouts().PageLoad = TimeSpan.FromSeconds(_globalProperties!.PageLoadTime);
+            Driver.Manage().Cookies.DeleteAllCookies();
+         
+            
+           
             _url = _globalProperties.AppURL;
             Driver.Navigate().GoToUrl(_url);
+
+
+
+        }
+        [TearDown]
+        public void TestClosure()
+        {
+            var status = TestContext.CurrentContext.Result.Outcome.Status;
+            var stacktrace = string.IsNullOrEmpty(TestContext.CurrentContext.Result.StackTrace)
+                ? ""
+                : $"{TestContext.CurrentContext.Result.StackTrace}";
+
+            switch (status)
+            {
+                case TestStatus.Failed:
+                    ExtentUtility.LogFail(stacktrace);
+                    var image = _driverUtils!.GetScreenShot(Driver!);
+                    ExtentUtility.LogScreenShot("Please click to see Image of Failed Test", image);
+
+                    break;
+
+                case TestStatus.Skipped:
+                    ExtentUtility.LogSkipped(stacktrace);
+                    break;
+
+                case TestStatus.Inconclusive:
+                    ExtentUtility.LogInfo(stacktrace);
+                    break;
+
+                default:
+                    if (string.IsNullOrEmpty(stacktrace))
+                    {
+                        ExtentUtility.LogPass($"Test Execution Completed Successfully for \"{TestContext.CurrentContext.Test.MethodName}\"");
+                    }
+
+                    break;
+            }
+
+            ExtentUtility.EndReporting();
+            //_extentReports = null;
+            _driverUtils!.Close();
+
 
 
 
@@ -69,10 +123,13 @@ namespace TurnupPortal.UITests.TestBase
 
 
         [OneTimeTearDown]
-        public void TearDown()
+        public void CloseEnvironment()
         {
-
-            _driverUtils?.Quit();        
+            if (_driverUtils!.Driver != null)
+            {
+                _driverUtils!.Quit();
+            }
+             
 
 
         }

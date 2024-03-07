@@ -44,7 +44,7 @@ namespace TurnupPortal.UITests.Utilities
         
         }
 
-        public void ClickButton(By locator)
+        public void ClickElement(By locator)
         {
             try
             {
@@ -58,6 +58,19 @@ namespace TurnupPortal.UITests.Utilities
             }
         }
 
+        public void ClickElementByActions(By locator)
+        {
+            try
+            {
+                IWebElement button = _waitUtils!.GetElement(_driverUtility.Driver!, locator, "clickable", _waitTime);
+                _driverUtility.MoveToElementAndClick(button);
+            }
+
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        }
         public string GetValidationText(By locator)
         {
             string validationText = "";

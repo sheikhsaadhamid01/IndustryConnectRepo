@@ -15,7 +15,7 @@ namespace TurnupPortal.UITests.Abstractions
         void  ClickElement(By locator);
 
         string GetValidationText(By locator);
-
+        void HandleConfirmationPopUP(string value);
         bool IsElementDisplayed(By locator);
         void ClickElementByActions(By locator);
     }

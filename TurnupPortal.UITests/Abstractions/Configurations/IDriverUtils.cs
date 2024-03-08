@@ -20,6 +20,8 @@ namespace TurnupPortal.UITests.Abstractions
         void ClickThroughJavascript(IWebElement element);
         string GetElementText(IWebElement element);
         bool IsDisplayed(IWebElement element);
+        void SwtichToAlertAndAccept();
+        public void SwitchToAlertandDecline();
         void MoveToElementAndClick(IWebElement element);
         void Quit();
 

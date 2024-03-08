@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using TurnupPortal.UITests.Abstractions;
 using TurnupPortal.UITests.TestBase;
 using System.Reflection;
+using System.Security.Policy;
 
 namespace TurnupPortal.UITests.Utilities
 {
@@ -114,6 +115,18 @@ namespace TurnupPortal.UITests.Utilities
                 .Click()
                 .Build()
                 .Perform();
+        }
+
+        public void SwtichToAlertAndAccept()
+        {
+            IAlert alert = (IAlert)Driver!;
+            alert.Accept();
+        }
+
+        public void SwitchToAlertandDecline()
+        {
+            IAlert alert = (IAlert)Driver!;
+            alert.Dismiss();
         }
 
         public void Quit()

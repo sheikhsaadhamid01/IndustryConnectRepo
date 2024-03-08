@@ -9,8 +9,8 @@ namespace TurnupPortal.UITests.Pages.Navigation
 {
     public class AppNavigationLocators
     {
-        public static string AppArea {  get; set; } 
-        public static By AreaLocator { get => By.XPath(".//a[text()='"+AppArea+" ']"); }
+        public static string? AppArea {  get; set; } 
+        public static By AreaLocator { get => By.XPath(".//a[text()='"+AppArea+"']"); }
         public static By Administration { get => By.XPath(".//a[text()='Administration ']"); }
 
 

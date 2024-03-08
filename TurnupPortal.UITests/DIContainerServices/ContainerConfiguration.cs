@@ -11,6 +11,7 @@ using TurnupPortal.UITests.Abstractions.Pages;
 using TurnupPortal.UITests.Pages.HomePage;
 using TurnupPortal.UITests.Pages.Login;
 using TurnupPortal.UITests.Pages.Navigation;
+using TurnupPortal.UITests.Pages.TimeAndMaterials;
 using TurnupPortal.UITests.Params;
 using TurnupPortal.UITests.TestBase;
 using TurnupPortal.UITests.Utilities;
@@ -52,6 +53,7 @@ namespace TurnupPortal.UITests.DIContainerServices
             serviceCollection.AddSingleton<ILoginPageHelper, LoginPageHelpers>();
             serviceCollection.AddSingleton<IHomePageHelper, HomePageHelper>();
             serviceCollection.AddSingleton<INavigationHelper, AppNavigationUtility>();
+            serviceCollection.AddSingleton<ITimeAndMaterialPageHelper, TimeAndMaterialHelpers>();
             #endregion
 
             return serviceCollection!.BuildServiceProvider();

@@ -33,7 +33,7 @@ namespace TurnupPortal.UITests.Pages.Navigation
             {
                 case "administration":
                     {
-                        AppNavigationLocators.AppArea = pageName + ' ';
+                        AppNavigationLocators.AppArea = pageName;
                         _appUtilities.ClickElementByActions(AppNavigationLocators.AreaLocator);
                         break;
                     }

@@ -30,6 +30,7 @@
   <ItemGroup>
     <Folder Include="BrowserDrivers\" />
     <Folder Include="Logging\" />
+    <Folder Include="Pages\NewFolder\" />
   </ItemGroup>
 
 </Project>

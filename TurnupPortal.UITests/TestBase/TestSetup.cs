@@ -28,6 +28,7 @@ namespace TurnupPortal.UITests.TestBase
         protected IHomePageHelper? _homePageHelper;
         protected ILoginPageHelper? _loginPageHelper;
         protected INavigationHelper? _navigationHelper;
+        protected ITimeAndMaterialPageHelper? _timeAndMaterialPageHelper;
         protected static ExtentTest? _parentTest;
         protected static ExtentTest? _extentTest;
         protected string _url = "";
@@ -53,6 +54,7 @@ namespace TurnupPortal.UITests.TestBase
                 _loginPageHelper = _service?.GetRequiredService<ILoginPageHelper>();
                 _homePageHelper = _service?.GetRequiredService<IHomePageHelper>();
                 _navigationHelper = _service?.GetRequiredService<INavigationHelper>();
+                _timeAndMaterialPageHelper = _service?.GetRequiredService<ITimeAndMaterialPageHelper>();
             }
             ExtentUtility.CreateParentTest(GetType().Name);
 

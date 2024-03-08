@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\IC-Assignments\\IndustryConnectRepo\\TurnupPortal.UITests\\TurnupPortal.UITests.csproj": {}
+    "C:\\Users\\sheik\\OneDrive\\Documents\\ICAssignments\\IndustryConnectRepo\\TurnupPortal.UITests\\TurnupPortal.UITests.csproj": {}
   },
   "projects": {
-    "D:\\IC-Assignments\\IndustryConnectRepo\\TurnupPortal.UITests\\TurnupPortal.UITests.csproj": {
+    "C:\\Users\\sheik\\OneDrive\\Documents\\ICAssignments\\IndustryConnectRepo\\TurnupPortal.UITests\\TurnupPortal.UITests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\IC-Assignments\\IndustryConnectRepo\\TurnupPortal.UITests\\TurnupPortal.UITests.csproj",
+        "projectUniqueName": "C:\\Users\\sheik\\OneDrive\\Documents\\ICAssignments\\IndustryConnectRepo\\TurnupPortal.UITests\\TurnupPortal.UITests.csproj",
         "projectName": "TurnupPortal.UITests",
-        "projectPath": "D:\\IC-Assignments\\IndustryConnectRepo\\TurnupPortal.UITests\\TurnupPortal.UITests.csproj",
-        "packagesPath": "C:\\Users\\Saad\\.nuget\\packages\\",
-        "outputPath": "D:\\IC-Assignments\\IndustryConnectRepo\\TurnupPortal.UITests\\obj\\",
+        "projectPath": "C:\\Users\\sheik\\OneDrive\\Documents\\ICAssignments\\IndustryConnectRepo\\TurnupPortal.UITests\\TurnupPortal.UITests.csproj",
+        "packagesPath": "C:\\Users\\sheik\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sheik\\OneDrive\\Documents\\ICAssignments\\IndustryConnectRepo\\TurnupPortal.UITests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Saad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sheik\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,11 +34,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -122,7 +117,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

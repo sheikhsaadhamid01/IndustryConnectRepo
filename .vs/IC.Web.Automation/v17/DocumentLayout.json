@@ -1,0 +1,265 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\IC-Assignments\\IndustryConnectRepo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{04AB37CE-6C12-45C8-A677-1BE37C75B818}|TurnupPortal.UITests\\TurnupPortal.UITests.csproj|d:\\ic-assignments\\industryconnectrepo\\turnupportal.uitests\\testbase\\testsetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04AB37CE-6C12-45C8-A677-1BE37C75B818}|TurnupPortal.UITests\\TurnupPortal.UITests.csproj|solutionrelative:turnupportal.uitests\\testbase\\testsetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04AB37CE-6C12-45C8-A677-1BE37C75B818}|TurnupPortal.UITests\\TurnupPortal.UITests.csproj|d:\\ic-assignments\\industryconnectrepo\\turnupportal.uitests\\tests\\loginpagetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04AB37CE-6C12-45C8-A677-1BE37C75B818}|TurnupPortal.UITests\\TurnupPortal.UITests.csproj|solutionrelative:turnupportal.uitests\\tests\\loginpagetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04AB37CE-6C12-45C8-A677-1BE37C75B818}|TurnupPortal.UITests\\TurnupPortal.UITests.csproj|d:\\ic-assignments\\industryconnectrepo\\turnupportal.uitests\\reporting\\extentutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04AB37CE-6C12-45C8-A677-1BE37C75B818}|TurnupPortal.UITests\\TurnupPortal.UITests.csproj|solutionrelative:turnupportal.uitests\\reporting\\extentutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04AB37CE-6C12-45C8-A677-1BE37C75B818}|TurnupPortal.UITests\\TurnupPortal.UITests.csproj|d:\\ic-assignments\\industryconnectrepo\\turnupportal.uitests\\utilities\\driverutilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04AB37CE-6C12-45C8-A677-1BE37C75B818}|TurnupPortal.UITests\\TurnupPortal.UITests.csproj|solutionrelative:turnupportal.uitests\\utilities\\driverutilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04AB37CE-6C12-45C8-A677-1BE37C75B818}|TurnupPortal.UITests\\TurnupPortal.UITests.csproj|d:\\ic-assignments\\industryconnectrepo\\turnupportal.uitests\\abstractions\\configurations\\idriverutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04AB37CE-6C12-45C8-A677-1BE37C75B818}|TurnupPortal.UITests\\TurnupPortal.UITests.csproj|solutionrelative:turnupportal.uitests\\abstractions\\configurations\\idriverutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04AB37CE-6C12-45C8-A677-1BE37C75B818}|TurnupPortal.UITests\\TurnupPortal.UITests.csproj|d:\\ic-assignments\\industryconnectrepo\\turnupportal.uitests\\abstractions\\pages\\inavigationhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04AB37CE-6C12-45C8-A677-1BE37C75B818}|TurnupPortal.UITests\\TurnupPortal.UITests.csproj|solutionrelative:turnupportal.uitests\\abstractions\\pages\\inavigationhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04AB37CE-6C12-45C8-A677-1BE37C75B818}|TurnupPortal.UITests\\TurnupPortal.UITests.csproj|d:\\ic-assignments\\industryconnectrepo\\turnupportal.uitests\\dicontainerservices\\containerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04AB37CE-6C12-45C8-A677-1BE37C75B818}|TurnupPortal.UITests\\TurnupPortal.UITests.csproj|solutionrelative:turnupportal.uitests\\dicontainerservices\\containerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04AB37CE-6C12-45C8-A677-1BE37C75B818}|TurnupPortal.UITests\\TurnupPortal.UITests.csproj|d:\\ic-assignments\\industryconnectrepo\\turnupportal.uitests\\pages\\navigation\\appnavigationutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04AB37CE-6C12-45C8-A677-1BE37C75B818}|TurnupPortal.UITests\\TurnupPortal.UITests.csproj|solutionrelative:turnupportal.uitests\\pages\\navigation\\appnavigationutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04AB37CE-6C12-45C8-A677-1BE37C75B818}|TurnupPortal.UITests\\TurnupPortal.UITests.csproj|d:\\ic-assignments\\industryconnectrepo\\turnupportal.uitests\\pages\\navigation\\appnavigationlocators.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04AB37CE-6C12-45C8-A677-1BE37C75B818}|TurnupPortal.UITests\\TurnupPortal.UITests.csproj|solutionrelative:turnupportal.uitests\\pages\\navigation\\appnavigationlocators.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04AB37CE-6C12-45C8-A677-1BE37C75B818}|TurnupPortal.UITests\\TurnupPortal.UITests.csproj|d:\\ic-assignments\\industryconnectrepo\\turnupportal.uitests\\utilities\\apputilites.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04AB37CE-6C12-45C8-A677-1BE37C75B818}|TurnupPortal.UITests\\TurnupPortal.UITests.csproj|solutionrelative:turnupportal.uitests\\utilities\\apputilites.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04AB37CE-6C12-45C8-A677-1BE37C75B818}|TurnupPortal.UITests\\TurnupPortal.UITests.csproj|d:\\ic-assignments\\industryconnectrepo\\turnupportal.uitests\\pages\\login\\loginpageobjects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04AB37CE-6C12-45C8-A677-1BE37C75B818}|TurnupPortal.UITests\\TurnupPortal.UITests.csproj|solutionrelative:turnupportal.uitests\\pages\\login\\loginpageobjects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04AB37CE-6C12-45C8-A677-1BE37C75B818}|TurnupPortal.UITests\\TurnupPortal.UITests.csproj|d:\\ic-assignments\\industryconnectrepo\\turnupportal.uitests\\pages\\homepage\\homepagehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04AB37CE-6C12-45C8-A677-1BE37C75B818}|TurnupPortal.UITests\\TurnupPortal.UITests.csproj|solutionrelative:turnupportal.uitests\\pages\\homepage\\homepagehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04AB37CE-6C12-45C8-A677-1BE37C75B818}|TurnupPortal.UITests\\TurnupPortal.UITests.csproj|d:\\ic-assignments\\industryconnectrepo\\turnupportal.uitests\\abstractions\\pages\\ihomepagehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04AB37CE-6C12-45C8-A677-1BE37C75B818}|TurnupPortal.UITests\\TurnupPortal.UITests.csproj|solutionrelative:turnupportal.uitests\\abstractions\\pages\\ihomepagehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04AB37CE-6C12-45C8-A677-1BE37C75B818}|TurnupPortal.UITests\\TurnupPortal.UITests.csproj|d:\\ic-assignments\\industryconnectrepo\\turnupportal.uitests\\abstractions\\pages\\iloginpagehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04AB37CE-6C12-45C8-A677-1BE37C75B818}|TurnupPortal.UITests\\TurnupPortal.UITests.csproj|solutionrelative:turnupportal.uitests\\abstractions\\pages\\iloginpagehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04AB37CE-6C12-45C8-A677-1BE37C75B818}|TurnupPortal.UITests\\TurnupPortal.UITests.csproj|d:\\ic-assignments\\industryconnectrepo\\turnupportal.uitests\\abstractions\\configurations\\iapputilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04AB37CE-6C12-45C8-A677-1BE37C75B818}|TurnupPortal.UITests\\TurnupPortal.UITests.csproj|solutionrelative:turnupportal.uitests\\abstractions\\configurations\\iapputilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ExtentUtility.cs",
+              "DocumentMoniker": "D:\\IC-Assignments\\IndustryConnectRepo\\TurnupPortal.UITests\\Reporting\\ExtentUtility.cs",
+              "RelativeDocumentMoniker": "TurnupPortal.UITests\\Reporting\\ExtentUtility.cs",
+              "ToolTip": "D:\\IC-Assignments\\IndustryConnectRepo\\TurnupPortal.UITests\\Reporting\\ExtentUtility.cs",
+              "RelativeToolTip": "TurnupPortal.UITests\\Reporting\\ExtentUtility.cs",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAqwF4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T03:28:04.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ContainerConfiguration.cs",
+              "DocumentMoniker": "D:\\IC-Assignments\\IndustryConnectRepo\\TurnupPortal.UITests\\DIContainerServices\\ContainerConfiguration.cs",
+              "RelativeDocumentMoniker": "TurnupPortal.UITests\\DIContainerServices\\ContainerConfiguration.cs",
+              "ToolTip": "D:\\IC-Assignments\\IndustryConnectRepo\\TurnupPortal.UITests\\DIContainerServices\\ContainerConfiguration.cs",
+              "RelativeToolTip": "TurnupPortal.UITests\\DIContainerServices\\ContainerConfiguration.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAQwDUAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T03:11:43.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "INavigationHelper.cs",
+              "DocumentMoniker": "D:\\IC-Assignments\\IndustryConnectRepo\\TurnupPortal.UITests\\Abstractions\\Pages\\INavigationHelper.cs",
+              "RelativeDocumentMoniker": "TurnupPortal.UITests\\Abstractions\\Pages\\INavigationHelper.cs",
+              "ToolTip": "D:\\IC-Assignments\\IndustryConnectRepo\\TurnupPortal.UITests\\Abstractions\\Pages\\INavigationHelper.cs",
+              "RelativeToolTip": "TurnupPortal.UITests\\Abstractions\\Pages\\INavigationHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T02:55:55.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AppUtilites.cs",
+              "DocumentMoniker": "D:\\IC-Assignments\\IndustryConnectRepo\\TurnupPortal.UITests\\Utilities\\AppUtilites.cs",
+              "RelativeDocumentMoniker": "TurnupPortal.UITests\\Utilities\\AppUtilites.cs",
+              "ToolTip": "D:\\IC-Assignments\\IndustryConnectRepo\\TurnupPortal.UITests\\Utilities\\AppUtilites.cs",
+              "RelativeToolTip": "TurnupPortal.UITests\\Utilities\\AppUtilites.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T02:03:54.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DriverUtilities.cs",
+              "DocumentMoniker": "D:\\IC-Assignments\\IndustryConnectRepo\\TurnupPortal.UITests\\Utilities\\DriverUtilities.cs",
+              "RelativeDocumentMoniker": "TurnupPortal.UITests\\Utilities\\DriverUtilities.cs",
+              "ToolTip": "D:\\IC-Assignments\\IndustryConnectRepo\\TurnupPortal.UITests\\Utilities\\DriverUtilities.cs",
+              "RelativeToolTip": "TurnupPortal.UITests\\Utilities\\DriverUtilities.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T15:45:35.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TestSetup.cs",
+              "DocumentMoniker": "D:\\IC-Assignments\\IndustryConnectRepo\\TurnupPortal.UITests\\TestBase\\TestSetup.cs",
+              "RelativeDocumentMoniker": "TurnupPortal.UITests\\TestBase\\TestSetup.cs",
+              "ToolTip": "D:\\IC-Assignments\\IndustryConnectRepo\\TurnupPortal.UITests\\TestBase\\TestSetup.cs",
+              "RelativeToolTip": "TurnupPortal.UITests\\TestBase\\TestSetup.cs",
+              "ViewState": "AQIAAG4AAAAAAAAAAAAIwHUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T15:32:27.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginPageTests.cs",
+              "DocumentMoniker": "D:\\IC-Assignments\\IndustryConnectRepo\\TurnupPortal.UITests\\Tests\\LoginPageTests.cs",
+              "RelativeDocumentMoniker": "TurnupPortal.UITests\\Tests\\LoginPageTests.cs",
+              "ToolTip": "D:\\IC-Assignments\\IndustryConnectRepo\\TurnupPortal.UITests\\Tests\\LoginPageTests.cs",
+              "RelativeToolTip": "TurnupPortal.UITests\\Tests\\LoginPageTests.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAAB8AAABhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T15:29:57.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IDriverUtils.cs",
+              "DocumentMoniker": "D:\\IC-Assignments\\IndustryConnectRepo\\TurnupPortal.UITests\\Abstractions\\Configurations\\IDriverUtils.cs",
+              "RelativeDocumentMoniker": "TurnupPortal.UITests\\Abstractions\\Configurations\\IDriverUtils.cs",
+              "ToolTip": "D:\\IC-Assignments\\IndustryConnectRepo\\TurnupPortal.UITests\\Abstractions\\Configurations\\IDriverUtils.cs",
+              "RelativeToolTip": "TurnupPortal.UITests\\Abstractions\\Configurations\\IDriverUtils.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA4AAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T15:45:55.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoginPageObjects.cs",
+              "DocumentMoniker": "D:\\IC-Assignments\\IndustryConnectRepo\\TurnupPortal.UITests\\Pages\\Login\\LoginPageObjects.cs",
+              "RelativeDocumentMoniker": "TurnupPortal.UITests\\Pages\\Login\\LoginPageObjects.cs",
+              "ToolTip": "D:\\IC-Assignments\\IndustryConnectRepo\\TurnupPortal.UITests\\Pages\\Login\\LoginPageObjects.cs",
+              "RelativeToolTip": "TurnupPortal.UITests\\Pages\\Login\\LoginPageObjects.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAA1wCwAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T02:12:32.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HomePageHelper.cs",
+              "DocumentMoniker": "D:\\IC-Assignments\\IndustryConnectRepo\\TurnupPortal.UITests\\Pages\\HomePage\\HomePageHelper.cs",
+              "RelativeDocumentMoniker": "TurnupPortal.UITests\\Pages\\HomePage\\HomePageHelper.cs",
+              "ToolTip": "D:\\IC-Assignments\\IndustryConnectRepo\\TurnupPortal.UITests\\Pages\\HomePage\\HomePageHelper.cs",
+              "RelativeToolTip": "TurnupPortal.UITests\\Pages\\HomePage\\HomePageHelper.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAACMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T02:12:55.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppNavigationLocators.cs",
+              "DocumentMoniker": "D:\\IC-Assignments\\IndustryConnectRepo\\TurnupPortal.UITests\\Pages\\Navigation\\AppNavigationLocators.cs",
+              "RelativeDocumentMoniker": "TurnupPortal.UITests\\Pages\\Navigation\\AppNavigationLocators.cs",
+              "ToolTip": "D:\\IC-Assignments\\IndustryConnectRepo\\TurnupPortal.UITests\\Pages\\Navigation\\AppNavigationLocators.cs",
+              "RelativeToolTip": "TurnupPortal.UITests\\Pages\\Navigation\\AppNavigationLocators.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T16:12:28.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppNavigationUtility.cs",
+              "DocumentMoniker": "D:\\IC-Assignments\\IndustryConnectRepo\\TurnupPortal.UITests\\Pages\\Navigation\\AppNavigationUtility.cs",
+              "RelativeDocumentMoniker": "TurnupPortal.UITests\\Pages\\Navigation\\AppNavigationUtility.cs",
+              "ToolTip": "D:\\IC-Assignments\\IndustryConnectRepo\\TurnupPortal.UITests\\Pages\\Navigation\\AppNavigationUtility.cs",
+              "RelativeToolTip": "TurnupPortal.UITests\\Pages\\Navigation\\AppNavigationUtility.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAADwvzIAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T16:11:53.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IHomePageHelper.cs",
+              "DocumentMoniker": "D:\\IC-Assignments\\IndustryConnectRepo\\TurnupPortal.UITests\\Abstractions\\Pages\\IHomePageHelper.cs",
+              "RelativeDocumentMoniker": "TurnupPortal.UITests\\Abstractions\\Pages\\IHomePageHelper.cs",
+              "ToolTip": "D:\\IC-Assignments\\IndustryConnectRepo\\TurnupPortal.UITests\\Abstractions\\Pages\\IHomePageHelper.cs",
+              "RelativeToolTip": "TurnupPortal.UITests\\Abstractions\\Pages\\IHomePageHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T02:06:15.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ILoginPageHelper.cs",
+              "DocumentMoniker": "D:\\IC-Assignments\\IndustryConnectRepo\\TurnupPortal.UITests\\Abstractions\\Pages\\ILoginPageHelper.cs",
+              "RelativeDocumentMoniker": "TurnupPortal.UITests\\Abstractions\\Pages\\ILoginPageHelper.cs",
+              "ToolTip": "D:\\IC-Assignments\\IndustryConnectRepo\\TurnupPortal.UITests\\Abstractions\\Pages\\ILoginPageHelper.cs",
+              "RelativeToolTip": "TurnupPortal.UITests\\Abstractions\\Pages\\ILoginPageHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T02:12:27.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IAppUtilities.cs",
+              "DocumentMoniker": "D:\\IC-Assignments\\IndustryConnectRepo\\TurnupPortal.UITests\\Abstractions\\Configurations\\IAppUtilities.cs",
+              "RelativeDocumentMoniker": "TurnupPortal.UITests\\Abstractions\\Configurations\\IAppUtilities.cs",
+              "ToolTip": "D:\\IC-Assignments\\IndustryConnectRepo\\TurnupPortal.UITests\\Abstractions\\Configurations\\IAppUtilities.cs",
+              "RelativeToolTip": "TurnupPortal.UITests\\Abstractions\\Configurations\\IAppUtilities.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBMAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T02:04:11.189Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -18,6 +18,15 @@ namespace TurnupPortal.UITests.Abstractions
         string InvalidUser { get; }
         string InvalidPassword { get; }
 
+        string? TypeCode { get; }
+        string? Code { get; }
+        string? Description { get; }
+        string? Price { get; }
+        string NewTypeCode { get; }
+        string NewCode { get; }
+        string NewDescription { get; }
+        string CodeToDelete {  get; }
+        string CodeToEdit { get; }
 
         void InitializeAppConfiguration();
 

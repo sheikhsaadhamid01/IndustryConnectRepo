@@ -8,6 +8,7 @@ using TurnupPortal.UITests.Abstractions;
 using System.Reflection;
 using OpenQA.Selenium;
 using System.Reflection.Emit;
+using System.Linq.Expressions;
 
 namespace TurnupPortal.UITests.Pages.TimeAndMaterials
 {
@@ -42,10 +43,18 @@ namespace TurnupPortal.UITests.Pages.TimeAndMaterials
             {
                 throw new ArgumentException($"Null or Empty string provided as argument for method {MethodBase.GetCurrentMethod()!.Name}");
             }
-            _appUtilities!.ClickElement(TimeAndMaterialsLocators.CreateNew);
-            _timeAndMaterialPageHelper.EnterDataInFieldOfTimeAndMaterialPage(typecode, code, description, price);
-            
-            isRecordCreated = _appUtilities!.IsElementDisplayed(TimeAndMaterialsLocators.AddedRecord);
+            try
+            {
+                _appUtilities!.ClickElement(TimeAndMaterialsLocators.CreateNew);
+                _timeAndMaterialPageHelper.EnterDataInFieldOfTimeAndMaterialPage(typecode, code, description, price);
+                _appUtilities.ClickElement(TimeAndMaterialsLocators.LastPageIcon);
+                TimeAndMaterialsLocators.CodeName = code;
+                isRecordCreated = _appUtilities!.IsElementDisplayed(TimeAndMaterialsLocators.AddedRecord);
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
 
             return isRecordCreated;
             
@@ -54,30 +63,38 @@ namespace TurnupPortal.UITests.Pages.TimeAndMaterials
 
 
 
-        public bool EditTimeAndMaterialRecord(string typecode, string oldcode, string newcode, string description, string price)
+        public bool EditTimeAndMaterialRecord(string typecode, string oldcode, string newcode, string description)
         {
             bool isRecordEditted = false;
-            if (string.IsNullOrEmpty(typecode) && string.IsNullOrEmpty(oldcode) && string.IsNullOrEmpty(newcode) && string.IsNullOrEmpty(description) && string.IsNullOrEmpty(price))
+            if (string.IsNullOrEmpty(typecode) && string.IsNullOrEmpty(oldcode) && string.IsNullOrEmpty(newcode) && string.IsNullOrEmpty(description))
             {
                 throw new ArgumentException($"Null or Empty string provided as argument for method {MethodBase.GetCurrentMethod()!.Name}");
             }
-
-            bool isRecordAvailableOnPage = _timeAndMaterialPageHelper.IsCodeAvailableOnPage(oldcode);
-            if(isRecordAvailableOnPage)
+            try
             {
-                
-                _appUtilities!.ClickElement(TimeAndMaterialsLocators.EditCode);
+                bool isRecordAvailableOnPage = _timeAndMaterialPageHelper.FindCodeOnPage(oldcode);
+                if (isRecordAvailableOnPage)
+                {
 
-                _timeAndMaterialPageHelper.EnterDataInFieldOfTimeAndMaterialPage(typecode, newcode, description, price);
-                TimeAndMaterialsLocators.CodeName = newcode;
+                    _appUtilities!.ClickElement(TimeAndMaterialsLocators.EditCode);
 
-                isRecordEditted = _appUtilities.IsElementDisplayed(TimeAndMaterialsLocators.AddedRecord);
-                
+                    _timeAndMaterialPageHelper.EnterDataInFieldOfTimeAndMaterialPage(typecode, newcode, description);
+
+                    TimeAndMaterialsLocators.CodeName = newcode;
+
+                    isRecordEditted = _appUtilities.IsElementDisplayed(TimeAndMaterialsLocators.AddedRecord);
+
+                }
+                else
+                {
+                    throw new ElementNotVisibleException($"No record available in Time And Material Page with name: {oldcode}");
+                }
             }
-            else
+            catch (Exception e)
             {
-                throw new ElementNotVisibleException($"No record available in Time And Material Page with name: {oldcode}");
+                throw new Exception(e.Message);
             }
+
             return isRecordEditted;
         }
 
@@ -90,11 +107,31 @@ namespace TurnupPortal.UITests.Pages.TimeAndMaterials
             {
                 throw new ArgumentException($"Null or Empty string provided as argument for method {MethodBase.GetCurrentMethod()!.Name}");
             }
+            try
+            {
+                bool isRecordAvailableOnPage = _timeAndMaterialPageHelper.FindCodeOnPage(code);
+                if (isRecordAvailableOnPage)
+                {
+                    TimeAndMaterialsLocators.CodeName = code;
+                    _appUtilities?.ClickElement(TimeAndMaterialsLocators.DeleteCode);
+                    _appUtilities?.HandleConfirmationPopUP("accept");
 
-            TimeAndMaterialsLocators.CodeName = code;
-            _appUtilities?.ClickElement(TimeAndMaterialsLocators.DeleteCode);
-            _appUtilities?.HandleConfirmationPopUP("delete");
-            isRecordDeleted = !(_appUtilities!.IsElementDisplayed(TimeAndMaterialsLocators.AddedRecord));
+                    int count = _appUtilities!.GetElementsCount(TimeAndMaterialsLocators.AddedRecord);
+                    if (count == 0)
+                    {
+                        isRecordDeleted = true;
+                    }
+
+                }
+            }
+           catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
+
+            
+
+            
 
             return isRecordDeleted;
         }

@@ -23,29 +23,59 @@ namespace TurnupPortal.UITests.Pages.TimeAndMaterials
              TimeAndMaterialsLocators.TypeCodeValue = typecode;
             
             _appUtilities.ClickElementByActions(TimeAndMaterialsLocators.TypeCodeDropDown);
+           
             _appUtilities.ClickElementByActions(TimeAndMaterialsLocators.TypeCodeDropDownValue);
             _appUtilities.EnterDataInInputField(code, TimeAndMaterialsLocators.CodeField);
             _appUtilities.EnterDataInInputField(description, TimeAndMaterialsLocators.DescriptionField);
+            
             _appUtilities.EnterDataInInputField(price, TimeAndMaterialsLocators.PriceField);
             _appUtilities.ClickElement(TimeAndMaterialsLocators.SaveButton);
-            _appUtilities.ClickElement(TimeAndMaterialsLocators.LastPageIcon);
+          
+            
 
         }
 
+        public void EnterDataInFieldOfTimeAndMaterialPage(string typecode, string code, string description)
+        {
+            TimeAndMaterialsLocators.TypeCodeValue = typecode;
 
-        public bool IsCodeAvailableOnPage(string code)
+            _appUtilities.ClickElementByActions(TimeAndMaterialsLocators.TypeCodeDropDown);
+            
+            _appUtilities.ClickElementByActions(TimeAndMaterialsLocators.TypeCodeDropDownValue);
+            _appUtilities.EnterDataInInputField(code, TimeAndMaterialsLocators.CodeField);
+            _appUtilities.EnterDataInInputField(description, TimeAndMaterialsLocators.DescriptionField);
+            
+            _appUtilities.ClickElement(TimeAndMaterialsLocators.SaveButton);
+            
+
+
+        }
+
+       
+
+        public bool FindCodeOnPage(string code)
         {
             bool isCodeAvailable = false;
             _appUtilities.ClickElement(TimeAndMaterialsLocators.FirstPageIcon);
             TimeAndMaterialsLocators.CodeName = code;
             while(!isCodeAvailable)
             {
-                isCodeAvailable = _appUtilities.IsElementDisplayed(TimeAndMaterialsLocators.AddedRecord);
-                if (isCodeAvailable)
+                try
                 {
-                    break;
+                    isCodeAvailable = _appUtilities.IsElementDisplayed(TimeAndMaterialsLocators.AddedRecord);
+                    if (isCodeAvailable)
+                    {
+                        break;
+                    }
                 }
-                _appUtilities.ClickElement(TimeAndMaterialsLocators.NextPageIcon);
+                catch
+                {
+                    _appUtilities.ClickElement(TimeAndMaterialsLocators.NextPageIcon);
+                    continue;
+                }
+                
+               
+               
             }
 
             return isCodeAvailable;

@@ -33,6 +33,18 @@ namespace TurnupPortal.UITests.Params
         public string? InvalidUser { get; private set; }
         public string? InvalidPassword { get; private set; }
 
+        public string? TypeCode { get; private set; }
+        public string Code { get; private set; }
+        public string Description { get; private set; }
+        public string Price { get; private set; }
+        public string NewTypeCode { get; private set; }
+        public string NewCode { get; private set; }
+        public string CodeToEdit { get; private set; }
+
+        public string NewDescription { get; private set; }
+        public string CodeToDelete { get; private set; }
+
+
      
 
         #endregion
@@ -75,9 +87,7 @@ namespace TurnupPortal.UITests.Params
                 }
                 catch (FileNotFoundException ex)
                 {
-
-
-                    System.Environment.Exit(0);
+                     System.Environment.Exit(0);
                 }
             }
         }
@@ -128,6 +138,47 @@ namespace TurnupPortal.UITests.Params
             InvalidPassword = string.IsNullOrEmpty(_builder?["InvalidUserPassword"])
                ? _properties.InvalidPassword
                : _builder?["InvalidUserPassword"];
+
+
+            TypeCode = string.IsNullOrEmpty(_builder?["TypeCode"])
+            ? "Material"
+            : _builder?["TypeCode"];
+
+            Code = string.IsNullOrEmpty(_builder?["Code"])
+            ? "TestCode" + DateTime.Now.Minute.ToString()
+            : _builder?["Code"];
+
+
+            Description = string.IsNullOrEmpty(_builder?["Description"])
+            ? "TestDescription"
+            : _builder?["Description"];
+
+
+            Price = string.IsNullOrEmpty(_builder?["Price"])
+            ? "20"
+            : _builder?["Price"];
+
+
+            NewTypeCode = string.IsNullOrEmpty(_builder?["NewTypeCodeValue"])
+           ? "Material"
+           : _builder?["NewTypeCodeValue"];
+
+            NewCode = string.IsNullOrEmpty(_builder?["NewCodeValue"])
+            ? "NewTestCode" + DateTime.Now.Minute.ToString()
+            : _builder?["NewCodeValue"];
+
+            CodeToEdit = string.IsNullOrEmpty(_builder?["CodeToEdit"])
+            ? "TestCode"
+            : _builder?["CodeToEdit"];
+
+            NewDescription = string.IsNullOrEmpty(_builder?["NewDescription"])
+            ? "NewTestDescription"
+            : _builder?["NewDescription"];
+
+            CodeToDelete = string.IsNullOrEmpty(_builder?["CodeToDelete"])
+            ? "TestCode"
+            : _builder?["CodeToDelete"];
+
 
 
         }

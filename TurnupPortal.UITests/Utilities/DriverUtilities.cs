@@ -43,13 +43,15 @@ namespace TurnupPortal.UITests.Utilities
                 throw new ArgumentException($"Null or Empty value provided for {MethodBase.GetCurrentMethod()?.Name}");
             }
         }
-
+       
         public void SendText(IWebElement element, string text)
         {
             if (element != null && !string.IsNullOrEmpty(text))
             {
 
-                _actions!.MoveToElement(element).Click().SendKeys(text).Build().Perform();
+                ClickThroughJavascript(element);
+                element.Clear();
+                element.SendKeys(text);
                 
             }
             else
@@ -82,7 +84,7 @@ namespace TurnupPortal.UITests.Utilities
 
             return elementText;
         }
-
+       
 
         public bool IsDisplayed(IWebElement element)
         {
@@ -119,14 +121,12 @@ namespace TurnupPortal.UITests.Utilities
 
         public void SwtichToAlertAndAccept()
         {
-            IAlert alert = (IAlert)Driver!;
-            alert.Accept();
+            Driver!.SwitchTo().Alert().Accept();
         }
 
         public void SwitchToAlertandDecline()
         {
-            IAlert alert = (IAlert)Driver!;
-            alert.Dismiss();
+            Driver!.SwitchTo().Alert().Dismiss();
         }
 
         public void Quit()

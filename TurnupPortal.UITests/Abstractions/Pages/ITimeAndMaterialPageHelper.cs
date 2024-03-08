@@ -9,7 +9,8 @@ namespace TurnupPortal.UITests.Abstractions.Pages
     public interface ITimeAndMaterialPageHelper
     {
         void EnterDataInFieldOfTimeAndMaterialPage(string typecode, string code, string description, string price);
+        void EnterDataInFieldOfTimeAndMaterialPage(string typecode, string code, string description);
 
-        bool IsCodeAvailableOnPage(string code);
+        bool FindCodeOnPage(string code);
     }
 }

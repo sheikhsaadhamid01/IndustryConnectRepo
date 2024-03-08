@@ -15,7 +15,7 @@ namespace TurnupPortal.UITests.Pages.TimeAndMaterials
         public static By EditCode { get => By.XPath(".//td[text()='"+CodeName+"']//parent::tr//a[@class='k-button k-button-icontext k-grid-Edit']"); }
         public static By DeleteCode { get => By.XPath(".//td[text()='"+CodeName+"']//parent::tr//a[@class='k-button k-button-icontext k-grid-Delete']"); }
 
-        public static By AddedRecord { get => By.XPath(".//td[text()='"+CodeName+"']"); }
+        public static By AddedRecord { get => By.XPath(".//*[text()='"+CodeName+"']"); }
         
         #region Create and Edit Locators
 
@@ -28,7 +28,9 @@ namespace TurnupPortal.UITests.Pages.TimeAndMaterials
 
         public static By DescriptionField { get => By.XPath("//input[@class='text-box single-line' and @name='Description']"); }
 
-        public static By PriceField { get => By.XPath("//input[@id='Price']"); }
+        public static By PriceField { get => By.XPath("//input[@id='Price']//preceding-sibling::input"); }
+
+        public static By EditPriceField { get => By.XPath(".//input[@id='Price']"); }
 
         public static By SaveButton { get => By.XPath("//input[@id='SaveButton']"); }
 

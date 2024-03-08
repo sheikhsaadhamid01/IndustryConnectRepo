@@ -39,7 +39,7 @@ namespace TurnupPortal.UITests.Utilities
             }
             catch (Exception ex)
             {
-                throw new Exception(ex.InnerException!.ToString());
+                throw new Exception(ex.Message);
             }
             
         
@@ -69,15 +69,25 @@ namespace TurnupPortal.UITests.Utilities
 
             catch (Exception ex)
             {
-                throw new Exception(ex.InnerException!.ToString());
+                throw new Exception(ex.Message);
             }
         }
+
+       
         public string GetValidationText(By locator)
         {
             string validationText = "";
-            IWebElement message = _waitUtils.GetElement(_driverUtility.Driver!, locator, "visible", _waitTime);
-            validationText = _driverUtility.GetElementText(message);
-            return validationText;
+            try
+            {
+                IWebElement message = _waitUtils.GetElement(_driverUtility.Driver!, locator, "visible", _waitTime);
+                validationText = _driverUtility.GetElementText(message);
+                return validationText;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+
         }
 
         public void HandleConfirmationPopUP(string value)
@@ -99,7 +109,12 @@ namespace TurnupPortal.UITests.Utilities
                     break;
             }
         }
-
+        public int GetElementsCount(By locator)
+        {
+            int count = 0;
+            _waitUtils.GetElements(_driverUtility.Driver!, locator, "visible", _waitTime);
+            return count;
+        }
 
         public bool IsElementDisplayed(By locator)
         {
@@ -111,7 +126,7 @@ namespace TurnupPortal.UITests.Utilities
                 isDisplayed = _driverUtility.IsDisplayed(element);
 
             }
-            catch (Exception ex) { throw new Exception(ex.InnerException!.ToString()); ; }
+            catch (Exception ex) { throw new Exception(ex.Message); ; }
 
 
             return isDisplayed;

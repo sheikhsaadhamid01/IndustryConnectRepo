@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AventStack.ExtentReports;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -29,13 +30,63 @@ namespace TurnupPortal.UITests.Tests
 
         }
 
-        [Test, Order(1),]
+        [Test, Order(1)]
         public void VerifyCreatingNewTimeAndMaterialRecord()
         {
             _extentTest = ExtentUtility.CreateTest(TestContext.CurrentContext!.Test.MethodName!);
-            Assert.IsTrue(timeAndMaterialsPage.CreateNewRecord("Time","TA-12", "Test Description", "20.0"));
+            try
+            {
+                _extentTest.Log(Status.Info, $"About to create a new Time & Material Record.");
+                Assert.IsTrue(timeAndMaterialsPage.CreateNewRecord(_globalProperties!.TypeCode!, _globalProperties!.Code!, _globalProperties!.Description!, _globalProperties!.Price!));
+            }
+
+            catch (Exception ex)
+            {
+                _extentTest.Log(Status.Fail, ex.Message);
+                Assert.Fail(ex.Message);
+            }
+            
 
             
+            // _homePageHelper!.LogoutUser();
+        }
+
+        [Test, Order(2)]
+        public void VerifyEdittingTimeAndMaterialRecord()
+        {
+            _extentTest = ExtentUtility.CreateTest(TestContext.CurrentContext!.Test.MethodName!);
+
+            try
+            {
+                _extentTest.Log(Status.Info, $"About to create a Edit Time & Material Record with code name: {_globalProperties!.CodeToEdit}.");
+                Assert.IsTrue(timeAndMaterialsPage.EditTimeAndMaterialRecord(_globalProperties!.NewTypeCode!, _globalProperties!.CodeToEdit!, _globalProperties!.NewCode!, _globalProperties!.NewDescription!));
+            }
+            catch (Exception ex)
+            {
+                _extentTest.Log(Status.Fail, ex.Message);
+                Assert.Fail(ex.Message);
+            }
+
+
+            // _homePageHelper!.LogoutUser();
+        }
+
+        [Test, Order(3)]
+        public void VerifyDeletingTimeAndMaterialRecord()
+        {
+            _extentTest = ExtentUtility.CreateTest(TestContext.CurrentContext!.Test.MethodName!);
+            try
+            {
+                _extentTest.Log(Status.Info, $"About to create a Delete Time & Material Record withe Code name: {_globalProperties!.CodeToDelete}.");
+                Assert.IsTrue(timeAndMaterialsPage.DeleteTimeAndMaterialRecord(_globalProperties!.CodeToDelete!));
+            }
+            catch (Exception ex)
+            {
+                _extentTest.Log(Status.Fail, ex.Message);
+                Assert.Fail(ex.Message);
+            }
+
+
             // _homePageHelper!.LogoutUser();
         }
 

@@ -17,6 +17,7 @@ namespace TurnupPortal.UITests.Abstractions
         void SendText(IWebElement element, string text);
         void ClickElement(IWebElement element);
         string GetScreenShot(IWebDriver driver);
+
         void ClickThroughJavascript(IWebElement element);
         string GetElementText(IWebElement element);
         bool IsDisplayed(IWebElement element);

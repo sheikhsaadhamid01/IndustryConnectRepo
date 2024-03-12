@@ -7,6 +7,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
+using TurnupPortal.UITests.Abstractions;
 
 namespace TurnupPortal.UITests.Logging
 {
@@ -15,7 +16,8 @@ namespace TurnupPortal.UITests.Logging
 
         #region Fields
 
-        private IDefaultVariables _iDefaultVariables;
+        private IDefaultProperties _defaultProperties;
+            
 
         #endregion
 
@@ -24,9 +26,9 @@ namespace TurnupPortal.UITests.Logging
         /// Initialize the logger with a specific Log level
         // Writes logs to a file available Results folder
         /// </summary>
-        public LogHelper(IDefaultVariables iDefaultVariables)
+        public LogHelper(IDefaultProperties defaultProperties)
         {
-            this._iDefaultVariables = iDefaultVariables;
+            this._defaultProperties = defaultProperties;
 
         }
         #endregion

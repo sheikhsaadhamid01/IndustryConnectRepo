@@ -120,7 +120,9 @@ namespace TurnupPortal.UITests.Utilities
         {
 
             ITakesScreenshot takeScreenShot = (ITakesScreenshot)driver;
+            _log.Debug("Initializing and taking Screenshot");
             Screenshot screenshot = takeScreenShot.GetScreenshot();
+
             var image = screenshot.AsBase64EncodedString;
             return image;
 
@@ -129,6 +131,7 @@ namespace TurnupPortal.UITests.Utilities
 
         public void MoveToElementAndClick(IWebElement element)
         {
+            _log.Debug("Moving to Element and performing click");
             _actions!
                 .MoveToElement(element)
                 .Click()
@@ -138,11 +141,13 @@ namespace TurnupPortal.UITests.Utilities
 
         public void SwtichToAlertAndAccept()
         {
+            _log.Debug("Switching to JS Window and Accepting the prompt." );
             Driver!.SwitchTo().Alert().Accept();
         }
 
         public void SwitchToAlertandDecline()
         {
+            _log.Debug("Switching to JS Window and Declining the prompt.");
             Driver!.SwitchTo().Alert().Dismiss();
         }
 
@@ -150,6 +155,7 @@ namespace TurnupPortal.UITests.Utilities
         {
             if (Driver != null)
             {
+                _log.Debug("Closing the browser.");
                 Driver.Quit();
                 Driver = null;
             }

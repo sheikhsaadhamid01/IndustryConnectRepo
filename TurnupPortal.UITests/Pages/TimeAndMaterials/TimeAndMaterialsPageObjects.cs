@@ -56,6 +56,7 @@ namespace TurnupPortal.UITests.Pages.TimeAndMaterials
                 _log!.Info($"About to enter Date in the Fields of Time & Material Page. Data values are TypeCode:{typecode},Code: {code},Description: {description} and Price: {price}");
                 _timeAndMaterialPageHelper.EnterDataInFieldOfTimeAndMaterialPage(typecode, code, description, price);
                 _log!.Info("About to Click on Pagination -> Last Page icon to get the last .");
+                Thread.Sleep(2000);
                 _appUtilities.ClickElement(TimeAndMaterialsLocators.LastPageIcon);
                 _log!.Info($"About to set Code name as : {code}");
                 TimeAndMaterialsLocators.CodeName = code;

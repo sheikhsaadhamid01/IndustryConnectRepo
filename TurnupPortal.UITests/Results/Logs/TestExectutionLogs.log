@@ -1,0 +1,312 @@
+2024-03-12 20:17:45,031 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Initialized Driver.
+2024-03-12 20:17:45,037 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Initialized Driver Actions.
+2024-03-12 20:17:45,038 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Return Driver object: OpenQA.Selenium.Chrome.ChromeDriver
+2024-03-12 20:17:45,039 [NonParallelWorker] INFO TurnupPortal.UITests.Pages.Login.LoginPageObjects - About to perform login with Innalid Credentials testinvaliduser and testinvalidpassword
+2024-03-12 20:17:45,113 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clicking element through Javascript Executor
+2024-03-12 20:17:45,115 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Initializing JavaScript Executor
+2024-03-12 20:17:45,115 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Executing Javacript click on element.
+2024-03-12 20:17:45,125 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clearing any data in input field
+2024-03-12 20:17:45,158 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Sending testinvaliduser in input field.
+2024-03-12 20:17:45,258 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clicking element through Javascript Executor
+2024-03-12 20:17:45,258 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Initializing JavaScript Executor
+2024-03-12 20:17:45,258 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Executing Javacript click on element.
+2024-03-12 20:17:45,264 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clearing any data in input field
+2024-03-12 20:17:45,288 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Sending testinvalidpassword in input field.
+2024-03-12 20:17:45,390 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clicking element
+2024-03-12 20:17:45,681 [NonParallelWorker] INFO TurnupPortal.UITests.Pages.Login.LoginPageObjects - About to verify and get the text of the Validation message after invalid Login.
+2024-03-12 20:17:46,016 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Getting Element Text from the element
+2024-03-12 20:17:46,027 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Text : Invalid username or password.
+2024-03-12 20:17:46,027 [NonParallelWorker] INFO TurnupPortal.UITests.Pages.Login.LoginPageObjects - Validation Message: Invalid username or password.
+2024-03-12 20:17:52,200 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Closing the Driver and making it null to release the object.
+2024-03-12 20:19:05,628 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Initialized Driver.
+2024-03-12 20:19:05,635 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Initialized Driver Actions.
+2024-03-12 20:19:05,636 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Return Driver object: OpenQA.Selenium.Chrome.ChromeDriver
+2024-03-12 20:19:05,637 [NonParallelWorker] INFO TurnupPortal.UITests.Pages.Login.LoginPageObjects - About to perform login with Innalid Credentials testinvaliduser and testinvalidpassword
+2024-03-12 20:19:05,699 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clicking element through Javascript Executor
+2024-03-12 20:19:05,700 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Initializing JavaScript Executor
+2024-03-12 20:19:05,700 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Executing Javacript click on element.
+2024-03-12 20:19:05,710 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clearing any data in input field
+2024-03-12 20:19:05,745 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Sending testinvaliduser in input field.
+2024-03-12 20:19:05,858 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clicking element through Javascript Executor
+2024-03-12 20:19:05,858 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Initializing JavaScript Executor
+2024-03-12 20:19:05,858 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Executing Javacript click on element.
+2024-03-12 20:19:05,864 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clearing any data in input field
+2024-03-12 20:19:05,886 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Sending testinvalidpassword in input field.
+2024-03-12 20:19:05,958 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clicking element
+2024-03-12 20:19:06,535 [NonParallelWorker] INFO TurnupPortal.UITests.Pages.Login.LoginPageObjects - About to verify and get the text of the Validation message after invalid Login.
+2024-03-12 20:19:06,562 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Getting Element Text from the element
+2024-03-12 20:19:06,582 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Text : Invalid username or password.
+2024-03-12 20:19:06,582 [NonParallelWorker] INFO TurnupPortal.UITests.Pages.Login.LoginPageObjects - Validation Message: Invalid username or password.
+2024-03-12 20:19:11,708 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Closing the Driver and making it null to release the object.
+2024-03-12 20:19:26,959 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Initialized Driver.
+2024-03-12 20:19:26,959 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Initialized Driver Actions.
+2024-03-12 20:19:26,959 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Return Driver object: OpenQA.Selenium.Chrome.ChromeDriver
+2024-03-12 20:19:26,960 [NonParallelWorker] INFO TurnupPortal.UITests.Pages.Login.LoginPageObjects - About to perform login with Valid Credentials hari and 123123
+2024-03-12 20:19:26,986 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clicking element through Javascript Executor
+2024-03-12 20:19:26,986 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Initializing JavaScript Executor
+2024-03-12 20:19:26,986 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Executing Javacript click on element.
+2024-03-12 20:19:26,998 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clearing any data in input field
+2024-03-12 20:19:27,031 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Sending hari in input field.
+2024-03-12 20:19:27,104 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clicking element through Javascript Executor
+2024-03-12 20:19:27,104 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Initializing JavaScript Executor
+2024-03-12 20:19:27,104 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Executing Javacript click on element.
+2024-03-12 20:19:27,109 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clearing any data in input field
+2024-03-12 20:19:27,129 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Sending 123123 in input field.
+2024-03-12 20:19:27,191 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clicking element
+2024-03-12 20:19:30,011 [NonParallelWorker] INFO TurnupPortal.UITests.Pages.Login.LoginPageObjects - About to verify if user is navigated to Home page and Greeting text is displayed.
+2024-03-12 20:19:30,040 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Returning element if its displayed True
+2024-03-12 20:19:30,050 [NonParallelWorker] INFO TurnupPortal.UITests.Pages.Login.LoginPageObjects - About to return True after the login operation is completed.
+2024-03-12 20:19:30,051 [NonParallelWorker] INFO TurnupPortal.UITests.Pages.TimeAndMaterials.TimeAndMaterialsPageObjects - About to Navigate to Time & Materials page 
+2024-03-12 20:19:30,077 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Moving to Element and performing click
+2024-03-12 20:19:30,397 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Moving to Element and performing click
+2024-03-12 20:19:31,378 [NonParallelWorker] INFO TurnupPortal.UITests.Pages.TimeAndMaterials.TimeAndMaterialsPageObjects - About to Click on Create New button
+2024-03-12 20:19:31,423 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clicking element
+2024-03-12 20:19:32,005 [NonParallelWorker] INFO TurnupPortal.UITests.Pages.TimeAndMaterials.TimeAndMaterialsPageObjects - About to enter Date in the Fields of Time & Material Page. Data values are TypeCode:Time,Code: TA-7771,Description: Test Description and Price: 40
+2024-03-12 20:19:32,039 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Moving to Element and performing click
+2024-03-12 20:19:32,374 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Moving to Element and performing click
+2024-03-12 20:19:32,712 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clicking element through Javascript Executor
+2024-03-12 20:19:32,712 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Initializing JavaScript Executor
+2024-03-12 20:19:32,712 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Executing Javacript click on element.
+2024-03-12 20:19:32,717 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clearing any data in input field
+2024-03-12 20:19:32,743 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Sending TA-7771 in input field.
+2024-03-12 20:19:32,808 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clicking element through Javascript Executor
+2024-03-12 20:19:32,808 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Initializing JavaScript Executor
+2024-03-12 20:19:32,808 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Executing Javacript click on element.
+2024-03-12 20:19:32,811 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clearing any data in input field
+2024-03-12 20:19:32,833 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Sending Test Description in input field.
+2024-03-12 20:19:32,904 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clicking element through Javascript Executor
+2024-03-12 20:19:32,904 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Initializing JavaScript Executor
+2024-03-12 20:19:32,904 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Executing Javacript click on element.
+2024-03-12 20:19:32,908 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clearing any data in input field
+2024-03-12 20:19:32,928 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Sending 40 in input field.
+2024-03-12 20:19:32,998 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clicking element
+2024-03-12 20:19:33,033 [NonParallelWorker] INFO TurnupPortal.UITests.Pages.TimeAndMaterials.TimeAndMaterialsPageObjects - About to Click on Pagination -> Last Page icon to get the last .
+2024-03-12 20:19:35,079 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clicking element
+2024-03-12 20:19:35,112 [NonParallelWorker] INFO TurnupPortal.UITests.Pages.TimeAndMaterials.TimeAndMaterialsPageObjects - About to set Code name as : TA-7771
+2024-03-12 20:19:35,112 [NonParallelWorker] INFO TurnupPortal.UITests.Pages.TimeAndMaterials.TimeAndMaterialsPageObjects - About to verify if Added record is displayed on the page
+2024-03-12 20:19:35,140 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Returning element if its displayed True
+2024-03-12 20:19:35,147 [NonParallelWorker] INFO TurnupPortal.UITests.Pages.TimeAndMaterials.TimeAndMaterialsPageObjects - About to return Record created as True
+2024-03-12 20:19:35,149 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Closing the Driver and making it null to release the object.
+2024-03-12 20:19:52,986 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Initialized Driver.
+2024-03-12 20:19:52,986 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Initialized Driver Actions.
+2024-03-12 20:19:52,986 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Return Driver object: OpenQA.Selenium.Chrome.ChromeDriver
+2024-03-12 20:19:52,986 [NonParallelWorker] INFO TurnupPortal.UITests.Pages.Login.LoginPageObjects - About to perform login with Valid Credentials hari and 123123
+2024-03-12 20:19:53,012 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clicking element through Javascript Executor
+2024-03-12 20:19:53,012 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Initializing JavaScript Executor
+2024-03-12 20:19:53,012 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Executing Javacript click on element.
+2024-03-12 20:19:53,032 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clearing any data in input field
+2024-03-12 20:19:53,061 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Sending hari in input field.
+2024-03-12 20:19:53,148 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clicking element through Javascript Executor
+2024-03-12 20:19:53,148 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Initializing JavaScript Executor
+2024-03-12 20:19:53,148 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Executing Javacript click on element.
+2024-03-12 20:19:53,155 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clearing any data in input field
+2024-03-12 20:19:53,184 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Sending 123123 in input field.
+2024-03-12 20:19:53,264 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clicking element
+2024-03-12 20:19:55,810 [NonParallelWorker] INFO TurnupPortal.UITests.Pages.Login.LoginPageObjects - About to verify if user is navigated to Home page and Greeting text is displayed.
+2024-03-12 20:19:55,841 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Returning element if its displayed True
+2024-03-12 20:19:55,851 [NonParallelWorker] INFO TurnupPortal.UITests.Pages.Login.LoginPageObjects - About to return True after the login operation is completed.
+2024-03-12 20:19:55,851 [NonParallelWorker] INFO TurnupPortal.UITests.Pages.TimeAndMaterials.TimeAndMaterialsPageObjects - About to Navigate to Time & Materials page 
+2024-03-12 20:19:55,881 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Moving to Element and performing click
+2024-03-12 20:19:56,190 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Moving to Element and performing click
+2024-03-12 20:20:03,281 [NonParallelWorker] INFO TurnupPortal.UITests.Pages.TimeAndMaterials.TimeAndMaterialsPageObjects - About to find aug is available on any page in Time & Material Data grid.
+2024-03-12 20:20:03,312 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clicking element
+2024-03-12 20:20:04,938 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Returning element if its displayed True
+2024-03-12 20:20:04,944 [NonParallelWorker] INFO TurnupPortal.UITests.Pages.TimeAndMaterials.TimeAndMaterialsPageObjects - aug found on the page.
+2024-03-12 20:20:04,944 [NonParallelWorker] INFO TurnupPortal.UITests.Pages.TimeAndMaterials.TimeAndMaterialsPageObjects - About to click on Edit button of aug
+2024-03-12 20:20:04,966 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clicking element
+2024-03-12 20:20:05,547 [NonParallelWorker] INFO TurnupPortal.UITests.Pages.TimeAndMaterials.TimeAndMaterialsPageObjects - About to update fields with new Typecode:Material, Code:NewTACode1, Description: New Description
+2024-03-12 20:20:05,585 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Moving to Element and performing click
+2024-03-12 20:20:06,413 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Moving to Element and performing click
+2024-03-12 20:20:06,706 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clicking element through Javascript Executor
+2024-03-12 20:20:06,706 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Initializing JavaScript Executor
+2024-03-12 20:20:06,706 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Executing Javacript click on element.
+2024-03-12 20:20:06,716 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clearing any data in input field
+2024-03-12 20:20:06,748 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Sending NewTACode1 in input field.
+2024-03-12 20:20:06,824 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clicking element through Javascript Executor
+2024-03-12 20:20:06,824 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Initializing JavaScript Executor
+2024-03-12 20:20:06,824 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Executing Javacript click on element.
+2024-03-12 20:20:06,829 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clearing any data in input field
+2024-03-12 20:20:06,861 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Sending New Description in input field.
+2024-03-12 20:20:06,943 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clicking element
+2024-03-12 20:20:06,979 [NonParallelWorker] INFO TurnupPortal.UITests.Pages.TimeAndMaterials.TimeAndMaterialsPageObjects - About to set codename in locators to build a locator for a specific record. code: NewTACode1
+2024-03-12 20:20:06,979 [NonParallelWorker] INFO TurnupPortal.UITests.Pages.TimeAndMaterials.TimeAndMaterialsPageObjects - About to verify if Editted record is updated on the data grid.
+2024-03-12 20:20:17,279 [NonParallelWorker] ERROR TurnupPortal.UITests.Pages.TimeAndMaterials.TimeAndMaterialsPageObjects - GetElement  - OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":".//*[text()='NewTACode1']"}
+  (Session info: chrome=122.0.6261.112); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass7_0.<ElementIsVisible>b__0(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+2024-03-12 20:20:17,305 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Initializing and taking Screenshot
+2024-03-12 20:20:17,409 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Closing the Driver and making it null to release the object.
+2024-03-12 20:20:38,867 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Initializing and taking Screenshot
+2024-03-12 20:22:28,311 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Initialized Driver.
+2024-03-12 20:22:28,319 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Initialized Driver Actions.
+2024-03-12 20:22:28,320 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Return Driver object: OpenQA.Selenium.Chrome.ChromeDriver
+2024-03-12 20:22:28,321 [NonParallelWorker] INFO TurnupPortal.UITests.Pages.Login.LoginPageObjects - About to perform login with Valid Credentials hari and 123123
+2024-03-12 20:22:28,376 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clicking element through Javascript Executor
+2024-03-12 20:22:28,376 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Initializing JavaScript Executor
+2024-03-12 20:22:28,376 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Executing Javacript click on element.
+2024-03-12 20:22:28,383 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clearing any data in input field
+2024-03-12 20:22:28,421 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Sending hari in input field.
+2024-03-12 20:22:28,495 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clicking element through Javascript Executor
+2024-03-12 20:22:28,495 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Initializing JavaScript Executor
+2024-03-12 20:22:28,495 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Executing Javacript click on element.
+2024-03-12 20:22:28,499 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clearing any data in input field
+2024-03-12 20:22:28,520 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Sending 123123 in input field.
+2024-03-12 20:22:28,591 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clicking element
+2024-03-12 20:22:31,017 [NonParallelWorker] INFO TurnupPortal.UITests.Pages.Login.LoginPageObjects - About to verify if user is navigated to Home page and Greeting text is displayed.
+2024-03-12 20:22:31,082 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Returning element if its displayed True
+2024-03-12 20:22:31,096 [NonParallelWorker] INFO TurnupPortal.UITests.Pages.Login.LoginPageObjects - About to return True after the login operation is completed.
+2024-03-12 20:22:31,097 [NonParallelWorker] INFO TurnupPortal.UITests.Pages.TimeAndMaterials.TimeAndMaterialsPageObjects - About to Navigate to Time & Materials page 
+2024-03-12 20:22:31,128 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Moving to Element and performing click
+2024-03-12 20:22:31,498 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Moving to Element and performing click
+2024-03-12 20:22:32,485 [NonParallelWorker] INFO TurnupPortal.UITests.Pages.TimeAndMaterials.TimeAndMaterialsPageObjects - About to Click on Create New button
+2024-03-12 20:22:32,522 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clicking element
+2024-03-12 20:22:33,021 [NonParallelWorker] INFO TurnupPortal.UITests.Pages.TimeAndMaterials.TimeAndMaterialsPageObjects - About to enter Date in the Fields of Time & Material Page. Data values are TypeCode:Time,Code: TA-7771,Description: Test Description and Price: 40
+2024-03-12 20:22:33,058 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Moving to Element and performing click
+2024-03-12 20:22:33,383 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Moving to Element and performing click
+2024-03-12 20:22:33,734 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clicking element through Javascript Executor
+2024-03-12 20:22:33,734 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Initializing JavaScript Executor
+2024-03-12 20:22:33,734 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Executing Javacript click on element.
+2024-03-12 20:22:33,738 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clearing any data in input field
+2024-03-12 20:22:33,756 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Sending TA-7771 in input field.
+2024-03-12 20:22:33,820 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clicking element through Javascript Executor
+2024-03-12 20:22:33,820 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Initializing JavaScript Executor
+2024-03-12 20:22:33,820 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Executing Javacript click on element.
+2024-03-12 20:22:33,826 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clearing any data in input field
+2024-03-12 20:22:33,844 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Sending Test Description in input field.
+2024-03-12 20:22:33,918 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clicking element through Javascript Executor
+2024-03-12 20:22:33,918 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Initializing JavaScript Executor
+2024-03-12 20:22:33,919 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Executing Javacript click on element.
+2024-03-12 20:22:33,923 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clearing any data in input field
+2024-03-12 20:22:33,941 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Sending 40 in input field.
+2024-03-12 20:22:34,011 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clicking element
+2024-03-12 20:22:34,055 [NonParallelWorker] INFO TurnupPortal.UITests.Pages.TimeAndMaterials.TimeAndMaterialsPageObjects - About to Click on Pagination -> Last Page icon to get the last .
+2024-03-12 20:22:36,113 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clicking element
+2024-03-12 20:22:36,142 [NonParallelWorker] INFO TurnupPortal.UITests.Pages.TimeAndMaterials.TimeAndMaterialsPageObjects - About to set Code name as : TA-7771
+2024-03-12 20:22:36,143 [NonParallelWorker] INFO TurnupPortal.UITests.Pages.TimeAndMaterials.TimeAndMaterialsPageObjects - About to verify if Added record is displayed on the page
+2024-03-12 20:22:36,172 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Returning element if its displayed True
+2024-03-12 20:22:36,181 [NonParallelWorker] INFO TurnupPortal.UITests.Pages.TimeAndMaterials.TimeAndMaterialsPageObjects - About to return Record created as True
+2024-03-12 20:22:41,308 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Closing the Driver and making it null to release the object.
+2024-03-12 20:22:54,788 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Initialized Driver.
+2024-03-12 20:22:54,788 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Initialized Driver Actions.
+2024-03-12 20:22:54,788 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Return Driver object: OpenQA.Selenium.Chrome.ChromeDriver
+2024-03-12 20:22:54,788 [NonParallelWorker] INFO TurnupPortal.UITests.Pages.Login.LoginPageObjects - About to perform login with Valid Credentials hari and 123123
+2024-03-12 20:22:54,820 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clicking element through Javascript Executor
+2024-03-12 20:22:54,820 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Initializing JavaScript Executor
+2024-03-12 20:22:54,820 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Executing Javacript click on element.
+2024-03-12 20:22:54,826 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clearing any data in input field
+2024-03-12 20:22:54,855 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Sending hari in input field.
+2024-03-12 20:22:54,934 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clicking element through Javascript Executor
+2024-03-12 20:22:54,935 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Initializing JavaScript Executor
+2024-03-12 20:22:54,935 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Executing Javacript click on element.
+2024-03-12 20:22:54,940 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clearing any data in input field
+2024-03-12 20:22:54,959 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Sending 123123 in input field.
+2024-03-12 20:22:55,026 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clicking element
+2024-03-12 20:22:57,468 [NonParallelWorker] INFO TurnupPortal.UITests.Pages.Login.LoginPageObjects - About to verify if user is navigated to Home page and Greeting text is displayed.
+2024-03-12 20:22:57,501 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Returning element if its displayed True
+2024-03-12 20:22:57,510 [NonParallelWorker] INFO TurnupPortal.UITests.Pages.Login.LoginPageObjects - About to return True after the login operation is completed.
+2024-03-12 20:22:57,510 [NonParallelWorker] INFO TurnupPortal.UITests.Pages.TimeAndMaterials.TimeAndMaterialsPageObjects - About to Navigate to Time & Materials page 
+2024-03-12 20:22:57,538 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Moving to Element and performing click
+2024-03-12 20:22:57,895 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Moving to Element and performing click
+2024-03-12 20:22:58,868 [NonParallelWorker] INFO TurnupPortal.UITests.Pages.TimeAndMaterials.TimeAndMaterialsPageObjects - About to find aug is available on any page in Time & Material Data grid.
+2024-03-12 20:22:58,899 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clicking element
+2024-03-12 20:23:00,944 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Returning element if its displayed True
+2024-03-12 20:23:00,952 [NonParallelWorker] INFO TurnupPortal.UITests.Pages.TimeAndMaterials.TimeAndMaterialsPageObjects - aug found on the page.
+2024-03-12 20:23:00,952 [NonParallelWorker] INFO TurnupPortal.UITests.Pages.TimeAndMaterials.TimeAndMaterialsPageObjects - About to click on Edit button of aug
+2024-03-12 20:23:00,974 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clicking element
+2024-03-12 20:23:01,475 [NonParallelWorker] INFO TurnupPortal.UITests.Pages.TimeAndMaterials.TimeAndMaterialsPageObjects - About to update fields with new Typecode:Material, Code:NewTACode1, Description: New Description
+2024-03-12 20:23:01,512 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Moving to Element and performing click
+2024-03-12 20:23:02,363 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Moving to Element and performing click
+2024-03-12 20:23:02,658 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clicking element through Javascript Executor
+2024-03-12 20:23:02,658 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Initializing JavaScript Executor
+2024-03-12 20:23:02,658 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Executing Javacript click on element.
+2024-03-12 20:23:02,664 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clearing any data in input field
+2024-03-12 20:23:02,687 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Sending NewTACode1 in input field.
+2024-03-12 20:23:02,750 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clicking element through Javascript Executor
+2024-03-12 20:23:02,750 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Initializing JavaScript Executor
+2024-03-12 20:23:02,750 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Executing Javacript click on element.
+2024-03-12 20:23:02,754 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clearing any data in input field
+2024-03-12 20:23:02,774 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Sending New Description in input field.
+2024-03-12 20:23:02,845 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clicking element
+2024-03-12 20:23:02,880 [NonParallelWorker] INFO TurnupPortal.UITests.Pages.TimeAndMaterials.TimeAndMaterialsPageObjects - About to set codename in locators to build a locator for a specific record. code: NewTACode1
+2024-03-12 20:23:02,880 [NonParallelWorker] INFO TurnupPortal.UITests.Pages.TimeAndMaterials.TimeAndMaterialsPageObjects - About to verify if Editted record is updated on the data grid.
+2024-03-12 20:23:12,532 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Returning element if its displayed True
+2024-03-12 20:23:12,540 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Closing the Driver and making it null to release the object.
+2024-03-12 20:23:28,942 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Initialized Driver.
+2024-03-12 20:23:28,942 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Initialized Driver Actions.
+2024-03-12 20:23:28,942 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Return Driver object: OpenQA.Selenium.Chrome.ChromeDriver
+2024-03-12 20:23:28,942 [NonParallelWorker] INFO TurnupPortal.UITests.Pages.Login.LoginPageObjects - About to perform login with Valid Credentials hari and 123123
+2024-03-12 20:23:28,973 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clicking element through Javascript Executor
+2024-03-12 20:23:28,973 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Initializing JavaScript Executor
+2024-03-12 20:23:28,973 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Executing Javacript click on element.
+2024-03-12 20:23:28,980 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clearing any data in input field
+2024-03-12 20:23:29,025 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Sending hari in input field.
+2024-03-12 20:23:29,107 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clicking element through Javascript Executor
+2024-03-12 20:23:29,107 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Initializing JavaScript Executor
+2024-03-12 20:23:29,107 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Executing Javacript click on element.
+2024-03-12 20:23:29,113 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clearing any data in input field
+2024-03-12 20:23:29,136 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Sending 123123 in input field.
+2024-03-12 20:23:29,197 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clicking element
+2024-03-12 20:23:31,178 [NonParallelWorker] INFO TurnupPortal.UITests.Pages.Login.LoginPageObjects - About to verify if user is navigated to Home page and Greeting text is displayed.
+2024-03-12 20:23:31,208 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Returning element if its displayed True
+2024-03-12 20:23:31,214 [NonParallelWorker] INFO TurnupPortal.UITests.Pages.Login.LoginPageObjects - About to return True after the login operation is completed.
+2024-03-12 20:23:31,214 [NonParallelWorker] INFO TurnupPortal.UITests.Pages.TimeAndMaterials.TimeAndMaterialsPageObjects - About to Navigate to Time & Materials page 
+2024-03-12 20:23:31,242 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Moving to Element and performing click
+2024-03-12 20:23:31,611 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Moving to Element and performing click
+2024-03-12 20:23:32,610 [NonParallelWorker] INFO TurnupPortal.UITests.Pages.TimeAndMaterials.TimeAndMaterialsPageObjects - About to find NewTACode1 is available on any page in Time & Material Data grid.
+2024-03-12 20:23:32,648 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clicking element
+2024-03-12 20:23:32,721 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Returning element if its displayed True
+2024-03-12 20:23:32,768 [NonParallelWorker] INFO TurnupPortal.UITests.Pages.TimeAndMaterials.TimeAndMaterialsPageObjects - NewTACode1 found on the page.
+2024-03-12 20:23:32,768 [NonParallelWorker] INFO TurnupPortal.UITests.Pages.TimeAndMaterials.TimeAndMaterialsPageObjects - About to set codename in locators to build a locator for a specific record. code: NewTACode1
+2024-03-12 20:23:32,768 [NonParallelWorker] INFO TurnupPortal.UITests.Pages.TimeAndMaterials.TimeAndMaterialsPageObjects - About to click on Delete button for code: NewTACode1 
+2024-03-12 20:23:32,804 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clicking element
+2024-03-12 20:23:32,842 [NonParallelWorker] INFO TurnupPortal.UITests.Pages.TimeAndMaterials.TimeAndMaterialsPageObjects - About to accept Deletion Popup message
+2024-03-12 20:23:32,843 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Switching to JS Window and Accepting the prompt.
+2024-03-12 20:23:32,846 [NonParallelWorker] INFO TurnupPortal.UITests.Pages.TimeAndMaterials.TimeAndMaterialsPageObjects - About to verify if there are any elements available on page with code: NewTACode1 after deletion
+2024-03-12 20:23:32,846 [NonParallelWorker] INFO TurnupPortal.UITests.Pages.TimeAndMaterials.TimeAndMaterialsPageObjects - Total number of Elements available on page with codename as NewTACode1 =  0
+2024-03-12 20:23:32,846 [NonParallelWorker] INFO TurnupPortal.UITests.Pages.TimeAndMaterials.TimeAndMaterialsPageObjects - About to return record deleted as True. 
+2024-03-12 20:23:32,848 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Closing the Driver and making it null to release the object.
+2024-03-12 20:23:54,740 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Initialized Driver.
+2024-03-12 20:23:54,747 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Initialized Driver Actions.
+2024-03-12 20:23:54,749 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Return Driver object: OpenQA.Selenium.Chrome.ChromeDriver
+2024-03-12 20:23:54,749 [NonParallelWorker] INFO TurnupPortal.UITests.Pages.Login.LoginPageObjects - About to perform login with Valid Credentials hari and 123123
+2024-03-12 20:23:54,803 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clicking element through Javascript Executor
+2024-03-12 20:23:54,804 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Initializing JavaScript Executor
+2024-03-12 20:23:54,804 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Executing Javacript click on element.
+2024-03-12 20:23:54,818 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clearing any data in input field
+2024-03-12 20:23:54,854 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Sending hari in input field.
+2024-03-12 20:23:54,930 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clicking element through Javascript Executor
+2024-03-12 20:23:54,930 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Initializing JavaScript Executor
+2024-03-12 20:23:54,930 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Executing Javacript click on element.
+2024-03-12 20:23:54,935 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clearing any data in input field
+2024-03-12 20:23:54,953 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Sending 123123 in input field.
+2024-03-12 20:23:55,011 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clicking element
+2024-03-12 20:23:57,102 [NonParallelWorker] INFO TurnupPortal.UITests.Pages.Login.LoginPageObjects - About to verify if user is navigated to Home page and Greeting text is displayed.
+2024-03-12 20:23:57,172 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Returning element if its displayed True
+2024-03-12 20:23:57,182 [NonParallelWorker] INFO TurnupPortal.UITests.Pages.Login.LoginPageObjects - About to return True after the login operation is completed.
+2024-03-12 20:24:02,740 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Closing the Driver and making it null to release the object.
+2024-03-12 20:24:19,009 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Initialized Driver.
+2024-03-12 20:24:19,009 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Initialized Driver Actions.
+2024-03-12 20:24:19,009 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Return Driver object: OpenQA.Selenium.Chrome.ChromeDriver
+2024-03-12 20:24:19,009 [NonParallelWorker] INFO TurnupPortal.UITests.Pages.Login.LoginPageObjects - About to perform login with Innalid Credentials testinvaliduser and testinvalidpassword
+2024-03-12 20:24:19,038 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clicking element through Javascript Executor
+2024-03-12 20:24:19,038 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Initializing JavaScript Executor
+2024-03-12 20:24:19,038 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Executing Javacript click on element.
+2024-03-12 20:24:19,046 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clearing any data in input field
+2024-03-12 20:24:19,082 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Sending testinvaliduser in input field.
+2024-03-12 20:24:19,173 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clicking element through Javascript Executor
+2024-03-12 20:24:19,173 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Initializing JavaScript Executor
+2024-03-12 20:24:19,173 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Executing Javacript click on element.
+2024-03-12 20:24:19,179 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clearing any data in input field
+2024-03-12 20:24:19,199 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Sending testinvalidpassword in input field.
+2024-03-12 20:24:19,287 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Clicking element
+2024-03-12 20:24:19,864 [NonParallelWorker] INFO TurnupPortal.UITests.Pages.Login.LoginPageObjects - About to verify and get the text of the Validation message after invalid Login.
+2024-03-12 20:24:19,884 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Getting Element Text from the element
+2024-03-12 20:24:19,899 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Text : Invalid username or password.
+2024-03-12 20:24:19,899 [NonParallelWorker] INFO TurnupPortal.UITests.Pages.Login.LoginPageObjects - Validation Message: Invalid username or password.
+2024-03-12 20:24:19,911 [NonParallelWorker] DEBUG TurnupPortal.UITests.Utilities.DriverUtilities - Closing the Driver and making it null to release the object.

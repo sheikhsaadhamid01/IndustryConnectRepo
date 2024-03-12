@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 using TurnupPortal.UITests.Abstractions;
 using TurnupPortal.UITests.Abstractions.Pages;
 using TurnupPortal.UITests.DIContainerServices;
+using TurnupPortal.UITests.Logging;
 using TurnupPortal.UITests.Reporting;
 using TurnupPortal.UITests.Utilities;
 
@@ -33,6 +34,7 @@ namespace TurnupPortal.UITests.TestBase
         protected static ExtentTest? _extentTest;
         protected string _url = "";
         protected IWebDriver? driver;
+        protected static log4net.ILog? _log;
 
         public IWebDriver? Driver { get; private set; }
 
@@ -58,7 +60,7 @@ namespace TurnupPortal.UITests.TestBase
             }
             ExtentUtility.CreateParentTest(GetType().Name);
 
-
+            _log = LogHelper.InitializeLogging((System.Reflection.MethodBase.GetCurrentMethod()!.DeclaringType!.ToString()));
         }
 
         public void Setup()
